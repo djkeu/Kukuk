@@ -1,0 +1,162 @@
+body {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: beige;
+    border: 1px solid darkred;
+    border-radius: 15px;
+    color: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    max-width: 250px;
+    position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        border: none;
+        margin-top: 0px;
+    }
+}
+
+h1 {
+    font-family: "Acme", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+h4 {
+    margin-bottom: -10px;
+}
+
+.clock {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kuku-message {
+    font-family: "Acme", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    font-style: italic;
+    color: darkred;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    height: 250px; /* Adjust based on desired image size */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.kuku-message span {
+    visibility: hidden; /* Hide text by default */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Smooth opacity transition */
+}
+
+.kuku-image {
+    width: 100%;  /* Ensure the image fills the container */
+    height: auto;  /* Maintain aspect ratio */
+    max-width: 250px;  /* Set a maximum width to avoid overflow */
+    max-height: 100%;  /* Ensure the image does not exceed container height */
+    object-fit: contain;  /* Maintain aspect ratio within the container */
+    position: absolute;  /* Position the image within the container */
+}
+
+.kuku-message.visible span {
+    visibility: visible; /* Show text when message is visible */
+    opacity: 1;
+    position: relative; /* Ensure text is positioned correctly */
+    z-index: 1; /* Ensure text appears above the image */
+}
+
+.selector {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid darkred;
+    border-radius: 5px;
+    color: darkred;
+    background-color: whitesmoke;
+}
+
+.menu-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.back-container {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+    .menu-container {
+        right: 20px;
+    }
+
+    .back-container {
+        left: 20px;
+    }
+}
+
+.menu-button, .back-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: darkred;
+}
+
+.about-section, .whatsnew-section {
+    margin-top: 40px;
+    text-align: left;
+}
+
+/* Start Screen Overlay */
+#startScreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 1000;
+}
+
+#startButton {
+    background-color: darkred;
+    color: white;
+    font-size: 24px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: -14%; /* Move the button upwards relative to its centered position */
+}
+
+#startButton:hover {
+    background-color: #b22222; /* Slightly darker red on hover */
+}
