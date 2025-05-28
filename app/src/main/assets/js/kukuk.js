@@ -10,48 +10,48 @@ document.addEventListener('DOMContentLoaded', () => {
     let alternateImages = false;
     let imageIntervalId;
 
-    // Define image paths
-    const kukuImages = {
-        left: 'images/kuku10Left.png',
-        right: 'images/kuku10Right.png'
-    };
-
-    // Function to update the time
+    // Update time
     const updateTime = () => {
         const now = new Date();
         kukuTime.textContent = now.toLocaleTimeString();
     };
 
-    // Function to alternate images every second
+    // Path clock/pendulum images
+    const kukuImages = {
+        left: 'images/kuku10Left.png',
+        right: 'images/kuku10Right.png'
+    };
+
+    // Swing the pendulum
     const toggleImages = () => {
         if (!isPlaying) {  // Only toggle if not playing sound
             const kukuImage = kukuMessage.querySelector('.kuku-image');
             alternateImages = !alternateImages;
             kukuImage.src = alternateImages ? kukuImages.left : kukuImages.right;
-            kukuImage.style.display = 'block'; // Ensure the image is visible
+            kukuImage.style.display = 'block';
         }
     };
 
-    // Function to show the Kuku message
+    // Show Kuku message
     const showKukuMessage = () => {
         return new Promise(resolve => {
             const kukuText = kukuMessage.querySelector('span');
             const kukuImage = kukuMessage.querySelector('.kuku-image');
 
-            // Temporarily hide the image and show the text
-            clearInterval(imageIntervalId); // Stop image alternation
+            // Hide the image and show Kuku! text
+            clearInterval(imageIntervalId); // Stop pendulum image alternation
             kukuImage.style.display = 'none';
             kukuText.style.visibility = 'visible';
-            kukuText.style.opacity = '1'; // Show text
+            kukuText.style.opacity = '1';
             setTimeout(() => {
                 kukuText.style.visibility = 'hidden';
-                kukuText.style.opacity = '0'; // Hide text
+                kukuText.style.opacity = '0';
                 resolve();
-            }, 1000); // Show for 1000ms
+            }, 1000);
         });
     };
 
-    // Function to play the Kuku sound
+    // Play Kuku sound
     const playKukuSound = async (times = 1) => {
         if (isPlaying) return; // Avoid playing multiple sounds at the same time
         isPlaying = true;
@@ -66,9 +66,9 @@ document.addEventListener('DOMContentLoaded', () => {
             await new Promise(resolve => setTimeout(resolve, 200)); // Wait for 200ms before the next Kuku
         }
 
-        isPlaying = false;  // End sound play
-        kukuImage.style.display = 'block'; // Ensure the image is visible
-        imageIntervalId = setInterval(toggleImages, 1000); // Resume image alternation
+        isPlaying = false;
+        kukuImage.style.display = 'block';
+        imageIntervalId = setInterval(toggleImages, 1000); // Resume pendulum image alternation
     };
 
     // Minutely alarms
@@ -140,11 +140,11 @@ document.addEventListener('DOMContentLoaded', () => {
         alarmSelector.value = 'quarterly_hourly';
         intervalId = setInterval(alarmsCallback, 1000);
         
-        // Immediately trigger the alarm callback to start Kuku-ing if needed
+        // Trigger the alarm callback to start Kuku-ing if needed
         alarmsCallback();
     });
 
-    // If you want to allow users to change modes later:
+    // Allow users to change modes later:
     alarmSelector.addEventListener('change', () => {
         if (intervalId) {
             clearInterval(intervalId);
