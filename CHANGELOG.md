@@ -6,9 +6,11 @@
 - Sound missing in alarms
 
 ### Changed
-- Remove startScreen and startButton (to fix sound issues)
 - Add README.md, CHANGELOG.md, TODO.md
 - Add 'about'-files, 'whatsnew'-files
+
+### Removed
+- Remove startScreen and startButton (to fix sound issues)
 
 ---
 
