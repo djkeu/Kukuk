@@ -3,12 +3,12 @@
 
 ## [2.0.1] - 2025-05-29
 ### Fixed
-- Sound missing in in alarms
+- Sound missing in alarms
 
 ### Changed
-- remove startScreen and startButton (to fix sound issues)
-- add README.md, CHANGELOG.md, TODO.md
-- add 'about'-files, 'whatsnew'-files
+- Remove startScreen and startButton (to fix sound issues)
+- Add README.md, CHANGELOG.md, TODO.md
+- Add 'about'-files, 'whatsnew'-files
 
 ---
 
