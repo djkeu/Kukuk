@@ -14,10 +14,6 @@ This is the Kukuk markdown todo file
 - [ ] About, What's new
     - [ ] Update about.json
     - [ ] Update whatsnew.json
-- [ ] User notification about What's new
-- [ ] Dark theme
-- [ ] Show bird when kuku-ing
-- [ ] Analogue clock inside drawing
 - [ ] README.md: About Kuku section
 
 
@@ -25,11 +21,9 @@ This is the Kukuk markdown todo file
 - [ ] Sound
     - [x] Sound on physical device (phone)
     - [ ] Sound on physical device (phone)
-
 - [ ] `Warning:` kukuk.js: needs testing
     - [x] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
     - [x] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
-
 - [ ] Menu button
     - [x] About
     - [ ] What's new 
@@ -38,6 +32,10 @@ This is the Kukuk markdown todo file
 
 ## Abandoned
 - [-] Message of the day
+- [-] User notification about What's new
+- [-] Dark theme
+- [-] Show bird when kuku-ing
+- [-] Analogue clock inside drawing
 
 
 ## Done
