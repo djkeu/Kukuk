@@ -1,6 +1,12 @@
 # Kuku - a digital cuckoo clock for pc and phone
 
 
+`Warning:` kukuk.js:
+  - setTimeout(resolve, 800); // Reduced from 1000ms to 800ms
+  - if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));
+  This needs testing, it could audio behaviour to cause problems
+
+
 ## Index
 
 - Description
