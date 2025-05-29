@@ -2,38 +2,35 @@ document.addEventListener('DOMContentLoaded', () => {
     const kukuTime = document.getElementById('kuku_time');
     const kukuMessage = document.getElementById('kuku_message');
     const alarmSelector = document.getElementById('alarmSelector');
-    const startScreen = document.getElementById('startScreen');
-    const startButton = document.getElementById('startButton');
     let intervalId;
-
-    let audio = new Audio('file:///android_asset/sounds/keukuk03.mp3');
-    console.log("Audio source:", audio.src);
-    audio.addEventListener('error', (e) => {
-        console.error("Audio error:", e.target.error);
-    });
-    audio.addEventListener('canplay', () => {
-        console.log("Audio is ready to play");
-    });
-
     let isPlaying = false;
     let alternateImages = false;
     let imageIntervalId;
+    const audioElements = [];
 
-    // Update time
-    const updateTime = () => {
-        const now = new Date();
-        kukuTime.textContent = now.toLocaleTimeString();
-    };
+    // Preload audio files (10 instances)
+    for (let i = 0; i < 10; i++) {
+        const audio = new Audio('file:///android_asset/sounds/keukuk03.mp3');
+        audio.volume = 1.0;
+        audio.load();
+        audioElements.push(audio);
+    }
 
-    // Path clock/pendulum images
+    // Define image paths
     const kukuImages = {
         left: 'images/kuku10Left.png',
         right: 'images/kuku10Right.png'
     };
 
-    // Swing the pendulum
+    // Function to update the time
+    const updateTime = () => {
+        const now = new Date();
+        kukuTime.textContent = now.toLocaleTimeString();
+    };
+
+    // Function to alternate images every second
     const toggleImages = () => {
-        if (!isPlaying) {  // Only toggle if not playing sound
+        if (!isPlaying) {
             const kukuImage = kukuMessage.querySelector('.kuku-image');
             alternateImages = !alternateImages;
             kukuImage.src = alternateImages ? kukuImages.left : kukuImages.right;
@@ -41,17 +38,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Show Kuku message
+    // Function to show the Kuku message
     const showKukuMessage = () => {
         return new Promise(resolve => {
             const kukuText = kukuMessage.querySelector('span');
             const kukuImage = kukuMessage.querySelector('.kuku-image');
 
-            // Hide the image and show Kuku! text
-            clearInterval(imageIntervalId); // Stop pendulum image alternation
+            clearInterval(imageIntervalId);
             kukuImage.style.display = 'none';
             kukuText.style.visibility = 'visible';
             kukuText.style.opacity = '1';
+
             setTimeout(() => {
                 kukuText.style.visibility = 'hidden';
                 kukuText.style.opacity = '0';
@@ -60,27 +57,35 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    // Play Kuku sound
+    // Function to play the Kuku sound
     const playKukuSound = async (times = 1) => {
-        if (isPlaying) return; // Avoid playing multiple sounds at the same time
+        if (isPlaying) return;
         isPlaying = true;
+        clearInterval(imageIntervalId);
 
-        const kukuImage = kukuMessage.querySelector('.kuku-image');
-        kukuImage.style.display = 'none'; // Hide image during sound play
+        try {
+            for (let i = 0; i < times; i++) {
+                await showKukuMessage();
 
-        for (let i = 0; i < times; i++) {
-            audio.currentTime = 0; // Reset the audio to the start
-            await audio.play().catch(error => console.error('Audio playback failed:', error));
-            await showKukuMessage(); // Show Kuku message and wait for it to finish
-            await new Promise(resolve => setTimeout(resolve, 200)); // Wait for 200ms before the next Kuku
+                await new Promise(resolve => {
+                    const audio = audioElements[i % audioElements.length];
+                    audio.currentTime = 0;
+                    audio.onended = resolve;
+                    audio.play().catch(e => console.error("Play error:", e));
+                    setTimeout(resolve, 800); // Fallback
+                });
+
+                if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));
+            }
+        } catch (e) {
+            console.error("Audio error:", e);
+        } finally {
+            isPlaying = false;
+            imageIntervalId = setInterval(toggleImages, 1000);
         }
-
-        isPlaying = false;
-        kukuImage.style.display = 'block';
-        imageIntervalId = setInterval(toggleImages, 1000); // Resume pendulum image alternation
     };
 
-    // Minutely alarms
+    // Alarm functions
     const minutelyAlarms = () => {
         const now = new Date();
         const currentSecond = now.getSeconds();
@@ -90,11 +95,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const lastDigit = currentMinute % 10;
             const times = lastDigit === 0 ? 10 : lastDigit;
             playKukuSound(times);
-            console.log(`Minutely alarm sounded ${times} time(s) at: ${now.toLocaleTimeString()}.\n`);
         }
     };
 
-    // Quarterly alarms
     const quarterlyAlarms = () => {
         const now = new Date();
         const currentSecond = now.getSeconds();
@@ -102,11 +105,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (currentSecond === 0 && [15, 30, 45].includes(currentMinute)) {
             playKukuSound(1);
-            console.log(`Quarterly alarm sounded 1 time at: ${now.toLocaleTimeString()}.\n`);
         }
     };
 
-    // Hourly alarms
     const hourlyAlarms = () => {
         const now = new Date();
         const currentSecond = now.getSeconds();
@@ -116,11 +117,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (currentSecond === 0 && currentMinute === 0) {
             const times = (currentHour % 12) || 12;
             playKukuSound(times);
-            console.log(`Hourly alarm sounded ${times} time(s) at: ${now.toLocaleTimeString()}.\n`);
         }
     };
 
-    // Alarms callback
     const alarmsCallback = () => {
         const selectedAlarm = alarmSelector.value;
 
@@ -134,30 +133,16 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Start updating the time immediately
+    // Initialize clock and alarms
     updateTime();
     setInterval(updateTime, 1000);
-
-    // Start alternating images every second
     imageIntervalId = setInterval(toggleImages, 1000);
+    alarmSelector.value = 'quarterly_hourly';
+    intervalId = setInterval(alarmsCallback, 1000);
 
-    // Handle Start Kuku button click
-    startButton.addEventListener('click', () => {
-        startScreen.style.display = 'none'; // Hide the start screen
-
-        // Set the alarm mode to "Hours and fifteen minutes" by default
-        alarmSelector.value = 'quarterly_hourly';
-        intervalId = setInterval(alarmsCallback, 1000);
-        
-        // Trigger the alarm callback to start Kuku-ing if needed
-        alarmsCallback();
-    });
-
-    // Allow users to change modes later:
+    // Alarm selector handler
     alarmSelector.addEventListener('change', () => {
-        if (intervalId) {
-            clearInterval(intervalId);
-        }
+        if (intervalId) clearInterval(intervalId);
         intervalId = setInterval(alarmsCallback, 1000);
     });
 });
