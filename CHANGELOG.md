@@ -1,4 +1,5 @@
 # Changelog
+Changelog for Kuku. Explanation at the bottom of the file.
 
 
 ## [2.0.1] - 2025-05-29
@@ -19,18 +20,17 @@
 ## [2.0.0] - 2025-05-27
 
 ### Changed
-- Convert kukuk-js to Android WebView activity
+- Convert kukuk-js 1.3 to Kukuk 2.0.0
 
 ---
 
 
 # About Changelog.md
-All notable changes to this project will be documented in this file.
+Version numbering: 
 
-MAJOR.MINOR.PATCH
-The format is based on [Keep a Changelog](https://keepachangelog.com/), and this project adheres to [Semantic Versioning](https://semver.org/).
+```
+## [2.x.x]-date  // MAJOR.MINOR.PATCH-date
 
-## [Unreleased]
 ### Added
 - (New features, modules, or UI elements).
 
@@ -44,3 +44,5 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 - (Deprecated or removed features).
 
 ---
+
+```
