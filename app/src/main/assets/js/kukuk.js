@@ -5,7 +5,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const startScreen = document.getElementById('startScreen');
     const startButton = document.getElementById('startButton');
     let intervalId;
-    let audio = new Audio('sounds/keukuk03.mp3');
+
+    let audio = new Audio('file:///android_asset/sounds/keukuk03.mp3');
+    console.log("Audio source:", audio.src);
+    audio.addEventListener('error', (e) => {
+        console.error("Audio error:", e.target.error);
+    });
+    audio.addEventListener('canplay', () => {
+        console.log("Audio is ready to play");
+    });
+
     let isPlaying = false;
     let alternateImages = false;
     let imageIntervalId;
