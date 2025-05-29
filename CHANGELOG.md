@@ -2,6 +2,7 @@
 
 
 ## [2.0.1] - 2025-05-29
+
 ### Fixed
 - Sound missing in alarms
 
@@ -16,6 +17,7 @@
 
 
 ## [2.0.0] - 2025-05-27
+
 ### Changed
 - Convert kukuk-js to Android WebView activity
 
