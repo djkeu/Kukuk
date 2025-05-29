@@ -14,9 +14,9 @@
 Always wanted to own a cuckoo clock but couldn't afford one?
 Well, bless the marvels of the modern world, you can get one on your phone right now. For Free!
 
-Kuku is an app that mimics a cuckoo-clock, written in JavaScript.
-A cuckoo sound is played once every 15 minutes and multiple times according to the hour of the day.
-
+Kuku is an app that mimics a cuckoo-clock. A cuckoo sound is played once every 15 minutes and multiple times according to the hour of the day.
+`ToDo:` expand on that
+ 
 
 ## About Kuku
 
@@ -29,16 +29,16 @@ A cuckoo sound is played once every 15 minutes and multiple times according to t
 
 ## Abandoned versions
 
-### Netlify:
-Using JavaScript\
+### [1.3] Netlify:
+JavaScript for deployment to Netlify\
 Year of development: 2024\
-Netlify: https://kuku-klok.netlify.app/
+Netlify: https://kuku-klok.netlify.app\
 Github: https://github.com/djkeu/kukuk-js
 
-### Kotlin:
-Switched to Kotlin for better performance on Android\
+### [0.2] Kotlin:
+Kotlin for better performance on Android\
 Github repository: https://github.com/djkeu/kukuk-kotlin
 
-### Python:
-Using Kivy framework for GUI\
+### [0.1] Python:
+Kivy framework for GUI\
 Github repository: https://github.com/djkeu/kukuk_python
