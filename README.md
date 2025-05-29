@@ -27,6 +27,9 @@ A cuckoo sound is played once every 15 minutes and multiple times according to t
 
 ### ToDo section
 
+- `FixMe:` Update this ToDo section
+- `ToDo:` Update aboud.json, whatsnew.json 
+
 - ToDo: User notification about What's new
 - ToDo: Dark theme
 - ToDo: Show bird when kuku-ing
