@@ -28,7 +28,8 @@ A cuckoo sound is played once every 15 minutes and multiple times according to t
 ### ToDo section
 
 - `FixMe:` Update this ToDo section
-- `ToDo:` Update aboud.json, whatsnew.json 
+- `FixMe:` about.js: about.json not loading
+- `ToDo:` Update about.json, whatsnew.json
 - `FixMe:` MainActivity: setJavaScriptEnabled vulnerability
 
 - ToDo: User notification about What's new
