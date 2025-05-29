@@ -10,13 +10,6 @@ This is the Kukuk markdown todo file
 - [ ] Continuous play when not active on mobile device, see ./doc/continuousPlay.md for explanation and sample code
 
 
-## ToDo
-- [ ] About, What's new
-    - [ ] Update about.json
-    - [ ] Update whatsnew.json
-- [ ] README.md: About Kuku section
-
-
 ## In Progress
 - [ ] Sound
     - [x] Sound on physical device (phone)
@@ -28,6 +21,13 @@ This is the Kukuk markdown todo file
     - [x] About
     - [ ] What's new 
     - [-] Dark theme 
+
+
+## ToDo
+- [ ] About, What's new
+    - [ ] Update about.json
+    - [ ] Update whatsnew.json
+- [ ] README.md: About Kuku section
 
 
 ## Abandoned
