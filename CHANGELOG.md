@@ -7,7 +7,7 @@
 
 ### Changed
 - remove startScreen and startButton (to fix sound issues)
-- add README.md and CHANGELOG.md
+- add README.md, CHANGELOG.md, TODO.md
 - add 'about'-files, 'whatsnew'-files
 
 ---
@@ -15,7 +15,7 @@
 
 ## [2.0.0] - 2025-05-27
 ### Changed
-- Move kukuk-js to WebView activity to prepare for move to Google Play Store
+- Convert kukuk-js to Android WebView activity
 
 ---
 
