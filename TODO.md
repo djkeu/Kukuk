@@ -1,6 +1,6 @@
 # TODO
 
-This is the Kukuk markdown todo file
+This is the Kukuk todo file
 
 
 ## FixMe
