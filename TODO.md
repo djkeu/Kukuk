@@ -3,6 +3,13 @@ This is the Kukuk todo file
 
 ## FixMe
 - [ ] MainActivity:
+  - [ ] W: setJavaScriptEnabled
+  - [ ] W: Call to 'printStackTrace()' should probably be replaced with more robust logging
+  - [ ] W: Result of 'InputStream.read()' is ignored
+  - [ ] StandardCharsets.UTF_8 can be used instead
+  - [ ] Method 'playKukuSound()' is never used
+  - [ ] Method 'getAboutData()' is never used
+  - [ ] It's possible to extract method returning 'fallbackData' from a long surrounding method
 ## In Progress
 - [ ] `Warning:` kukuk.js: needs testing
     - [*] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
