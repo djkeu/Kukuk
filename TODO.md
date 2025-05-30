@@ -7,16 +7,12 @@ This is the Kukuk todo file
 - [ ] `Warning:` kukuk.js: needs testing
     - [*] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
     - [*] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
-- [*] Menu button
-    - [*] About
-    - [-] What's new 
-    - [-] Dark theme 
 - [*] Update this ToDo section
 
 ## ToDo
 - [ ] About, What's new
     - [ ] Update information in about.json
-    - [ ] Update information in whatsnew.json
+    - [-] Update information in whatsnew.json
 - [ ] README.md: About Kuku section
 
 ## Abandoned
@@ -34,3 +30,7 @@ This is the Kukuk todo file
   - [*] Sound in emulator
 - [*] MainActivity: setJavaScriptEnabled vulnerability
 - [*] about.js: about.json not loading
+- [*] Menu button
+  - [*] About
+  - [-] What's new
+  - [-] Dark theme 
