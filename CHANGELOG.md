@@ -20,21 +20,15 @@ Changelog for Kuku
 
 
 # About Changelog.md
-Version numbering: 
-```
-## [2.x.x]-date  // MAJOR.MINOR.PATCH-date
 
+## [2.x.x]-date  // MAJOR.MINOR.PATCH-date
 ### Added
 - (New features, modules, or UI elements).
-
 ### Changed
 - (Existing functionality updates).
-
 ### Fixed
 - (Bug fixes).
-
 ### Removed
 - (Deprecated or removed features).
 
 ---
-```
