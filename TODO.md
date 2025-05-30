@@ -1,30 +1,25 @@
 # TODO
-
 This is the Kukuk todo file
-
 
 ## FixMe
 - [ ] about.js: about.json not loading
 - [ ] MainActivity: setJavaScriptEnabled vulnerability
 
-
 ## In Progress
 - [ ] `Warning:` kukuk.js: needs testing
-    - [x] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
-    - [x] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
+    - [*] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
+    - [*] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
 - [ ] Menu button
-    - [x] About
+    - [*] About
     - [ ] What's new 
     - [-] Dark theme 
-- [x] Update this ToDo section
-
+- [*] Update this ToDo section
 
 ## ToDo
 - [ ] About, What's new
-    - [ ] Update about.json
-    - [ ] Update whatsnew.json
+    - [ ] Update information in about.json
+    - [ ] Update information in whatsnew.json
 - [ ] README.md: About Kuku section
-
 
 ## Abandoned
 - [-] Message of the day
@@ -34,9 +29,8 @@ This is the Kukuk todo file
 - [-] Analogue clock inside drawing
 - [-] Continuous play when not active on mobile device, see ./doc/continuousPlay.md for explanation and sample code
 
-
 ## Done
-- [x] Convert from Netlify to Android WebView app
-- [x] Sound
-  - [x] Sound on physical device (phone)
-  - [x] Sound in emulator
+- [*] Convert from Netlify to Android WebView app
+- [*] Sound
+  - [*] Sound on physical device (phone)
+  - [*] Sound in emulator
