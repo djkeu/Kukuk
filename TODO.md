@@ -2,6 +2,7 @@
 This is the Kukuk todo file
 
 ## FixMe
+- [ ] about.json not loading on phone
 
 ## In Progress
 - [ ] `Warning:` kukuk.js: needs testing
