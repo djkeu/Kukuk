@@ -3,7 +3,6 @@ This is the Kukuk todo file
 
 ## FixMe
 - [ ] about.js: about.json not loading
-- [ ] MainActivity: setJavaScriptEnabled vulnerability
 
 ## In Progress
 - [ ] `Warning:` kukuk.js: needs testing
@@ -34,3 +33,4 @@ This is the Kukuk todo file
 - [*] Sound
   - [*] Sound on physical device (phone)
   - [*] Sound in emulator
+- [*] MainActivity: setJavaScriptEnabled vulnerability
