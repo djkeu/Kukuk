@@ -1,6 +1,14 @@
 # Changelog
 Changelog for Kuku
 
+## [2.0.2] - 2025-05-30
+### Fixed
+- setJavaScriptEnabled XSS vulnerabilities fixed
+- disable dangerous file loading settings
+- enable securely loading of about.json
+
+---
+
 ## [2.0.1] - 2025-05-29
 ### Fixed
 - Sound missing in alarms
