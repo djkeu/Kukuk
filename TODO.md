@@ -13,7 +13,7 @@ This is the Kukuk todo file
 ## In Progress
 - [ ] Sound
     - [x] Sound on physical device (phone)
-    - [ ] Sound on physical device (phone)
+    - [ ] Sound in emulator
 - [ ] `Warning:` kukuk.js: needs testing
     - [x] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
     - [x] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
