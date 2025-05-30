@@ -3,7 +3,6 @@ This is the Kukuk todo file
 
 ## FixMe
 - [ ] MainActivity: setJavaScriptEnabled vulnerability
-- [ ] about.js: about.json not loading
 
 ## In Progress
 - [ ] `Warning:` kukuk.js: needs testing
@@ -34,3 +33,4 @@ This is the Kukuk todo file
   - [*] About
   - [-] What's new
   - [-] Dark theme 
+- [*] about.js: about.json not loading
