@@ -4,10 +4,8 @@ This is the Kukuk todo file
 
 
 ## FixMe
-- [ ] Update this ToDo section
 - [ ] about.js: about.json not loading
 - [ ] MainActivity: setJavaScriptEnabled vulnerability
-- [ ] Continuous play when not active on mobile device, see ./doc/continuousPlay.md for explanation and sample code
 
 
 ## In Progress
@@ -18,6 +16,7 @@ This is the Kukuk todo file
     - [x] About
     - [ ] What's new 
     - [-] Dark theme 
+- [x] Update this ToDo section
 
 
 ## ToDo
@@ -33,6 +32,7 @@ This is the Kukuk todo file
 - [-] Dark theme
 - [-] Show bird when kuku-ing
 - [-] Analogue clock inside drawing
+- [-] Continuous play when not active on mobile device, see ./doc/continuousPlay.md for explanation and sample code
 
 
 ## Done
