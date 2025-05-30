@@ -5,14 +5,14 @@ This is the Kukuk todo file
 
 ## In Progress
 - [ ] `Warning:` kukuk.js: needs testing
-    - [*] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
-    - [*] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
+  - [*] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
+  - [*] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
 - [*] Update this ToDo section
 
 ## ToDo
 - [ ] About, What's new
-    - [ ] Update information in about.json
-    - [-] Update information in whatsnew.json
+  - [ ] Update information in about.json
+  - [-] Update information in whatsnew.json
 - [ ] README.md: About Kuku section
 
 ## Abandoned
