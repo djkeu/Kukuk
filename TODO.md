@@ -2,8 +2,7 @@
 This is the Kukuk todo file
 
 ## FixMe
-- [ ] MainActivity: setJavaScriptEnabled vulnerability
-
+- [ ] MainActivity:
 ## In Progress
 - [ ] `Warning:` kukuk.js: needs testing
     - [*] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
@@ -34,3 +33,4 @@ This is the Kukuk todo file
   - [-] What's new
   - [-] Dark theme 
 - [*] about.js: about.json not loading
+- [*] MainActivity: setJavaScriptEnabled vulnerability
