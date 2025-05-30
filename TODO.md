@@ -5,11 +5,6 @@ This is the Kukuk todo file
 
 ## ToDo
 - [ ] App icons
-- [ ] Changelog/Readme -> Abandoned versions: use proper SemVer
-  - [ ] Python version: 1.x.x
-  - [ ] Kotlin version: 2.x.x
-  - [ ] Netlify version: 3.x.x
-  - [ ] WebView version: 4.x.x
 
 ## In Progress
 - [ ] `Warning:` kukuk.js: needs testing
