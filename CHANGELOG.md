@@ -7,6 +7,8 @@ Changelog for Kuku 2 - the WebView version
 - restrict dangerous file loading settings
 - enable loading of about.json
 - enable loading of keukuk03.mp3
+### Removed
+- 'whatsnew'-files
 
 ---
 
