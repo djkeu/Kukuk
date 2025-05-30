@@ -6,7 +6,6 @@
 - Description
 - About Kuku
 - Abandoned versions
-- Continuous play
 
 
 ## Description
