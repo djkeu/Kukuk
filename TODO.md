@@ -3,13 +3,18 @@ This is the Kukuk todo file
 
 ## FixMe
 
+## ToDo
+- [ ] App icons
+- [ ] Changelog/Readme -> Abandoned versions: use proper SemVer
+  - [ ] Python version: 1.x.x
+  - [ ] Kotlin version: 2.x.x
+  - [ ] Netlify version: 3.x.x
+  - [ ] WebView version: 4.x.x
+
 ## In Progress
 - [ ] `Warning:` kukuk.js: needs testing
   - [*] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
   - [*] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
-- [*] Update this ToDo section
-
-## ToDo
 - [ ] About, What's new
   - [ ] Update information in about.json
   - [-] Update information in whatsnew.json
