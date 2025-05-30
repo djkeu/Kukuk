@@ -1,6 +1,5 @@
 package nl.djkeu.kukuk;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.media.MediaPlayer;
 import android.os.Bundle;
@@ -20,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     private WebView webView;
     private String aboutDataCache = null;
 
-    @SuppressLint("SetJavaScriptEnabled")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -167,6 +165,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @JavascriptInterface
+        @SuppressWarnings("unused") // Called from JavaScript
         public void playKukuSound() {
             if (audioPlayers != null && !audioPlayers.isEmpty()) {
                 try {
@@ -183,6 +182,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @JavascriptInterface
+        @SuppressWarnings("unused") // Called from JavaScript
         public String getAboutData() {
             return aboutDataCache != null ? aboutDataCache : "{}";
         }
