@@ -6,15 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let isPlaying = false;
     let alternateImages = false;
     let imageIntervalId;
-    const audioElements = [];
-
-    // Preload audio files (10 instances)
-    for (let i = 0; i < 10; i++) {
-        const audio = new Audio('file:///android_asset/sounds/keukuk03.mp3');
-        audio.volume = 1.0;
-        audio.load();
-        audioElements.push(audio);
-    }
 
     // Define image paths
     const kukuImages = {
@@ -32,9 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggleImages = () => {
         if (!isPlaying) {
             const kukuImage = kukuMessage.querySelector('.kuku-image');
-            alternateImages = !alternateImages;
-            kukuImage.src = alternateImages ? kukuImages.left : kukuImages.right;
-            kukuImage.style.display = 'block';
+            if (kukuImage) {
+                alternateImages = !alternateImages;
+                kukuImage.src = alternateImages ? kukuImages.left : kukuImages.right;
+                kukuImage.style.display = 'block';
+            }
         }
     };
 
@@ -44,16 +37,20 @@ document.addEventListener('DOMContentLoaded', () => {
             const kukuText = kukuMessage.querySelector('span');
             const kukuImage = kukuMessage.querySelector('.kuku-image');
 
-            clearInterval(imageIntervalId);
-            kukuImage.style.display = 'none';
-            kukuText.style.visibility = 'visible';
-            kukuText.style.opacity = '1';
+            if (kukuText && kukuImage) {
+                clearInterval(imageIntervalId);
+                kukuImage.style.display = 'none';
+                kukuText.style.visibility = 'visible';
+                kukuText.style.opacity = '1';
 
-            setTimeout(() => {
-                kukuText.style.visibility = 'hidden';
-                kukuText.style.opacity = '0';
+                setTimeout(() => {
+                    kukuText.style.visibility = 'hidden';
+                    kukuText.style.opacity = '0';
+                    resolve();
+                }, 1000);
+            } else {
                 resolve();
-            }, 1000);
+            }
         });
     };
 
@@ -67,18 +64,29 @@ document.addEventListener('DOMContentLoaded', () => {
             for (let i = 0; i < times; i++) {
                 await showKukuMessage();
 
-                await new Promise(resolve => {
-                    const audio = audioElements[i % audioElements.length];
-                    audio.currentTime = 0;
-                    audio.onended = resolve;
-                    audio.play().catch(e => console.error("Play error:", e));
-                    setTimeout(resolve, 800); // Fallback
-                });
+                // Use Android interface for secure audio playback
+                if (window.AndroidInterface && window.AndroidInterface.playKukuSound) {
+                    window.AndroidInterface.playKukuSound();
+                } else {
+                    // Fallback to HTML audio if Android interface not available
+                    try {
+                        const audio = new Audio('file:///android_asset/sounds/keukuk03.mp3');
+                        audio.volume = 1.0;
+                        audio.play().catch(e => console.error("Audio play error:", e));
+                    } catch (e) {
+                        console.error("HTML audio error:", e);
+                    }
+                }
 
-                if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));
+                // Wait for sound to finish
+                await new Promise(resolve => setTimeout(resolve, 800));
+
+                if (i < times - 1) {
+                    await new Promise(resolve => setTimeout(resolve, 150));
+                }
             }
         } catch (e) {
-            console.error("Audio error:", e);
+            console.error("Error in playKukuSound:", e);
         } finally {
             isPlaying = false;
             imageIntervalId = setInterval(toggleImages, 1000);
