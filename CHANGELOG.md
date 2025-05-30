@@ -6,6 +6,7 @@ Changelog for Kuku
 - setJavaScriptEnabled XSS vulnerabilities fixed
 - disable dangerous file loading settings
 - enable securely loading of about.json
+- loading of about.json
 
 ---
 
