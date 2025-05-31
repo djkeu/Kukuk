@@ -1,6 +1,12 @@
 # Changelog
 Changelog for Kuku 2 - the WebView version
 
+## [2.0.3] - 2025-05-31
+### Changed
+- app icons
+
+---
+
 ## [2.0.2] - 2025-05-30
 ### Fixed
 - setJavaScriptEnabled XSS vulnerabilities fixed
