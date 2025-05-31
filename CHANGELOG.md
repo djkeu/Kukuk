@@ -2,7 +2,7 @@
 Changelog for Kuku 2 - the WebView version
 
 ## [2.0.3] - 2025-05-31
-### Changed
+### Added
 - app icons
 
 ---
