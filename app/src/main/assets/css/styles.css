@@ -4,10 +4,10 @@ body {
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 40px;
-    background-color: beige;
-    border: 1px solid darkred;
+    background-color: #f5f5dc;  // beige
+    border: 1px solid #8B0000;  //darkred
     border-radius: 15px;
-    color: darkred;
+    color: #8B0000;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     max-width: 250px;
@@ -50,7 +50,7 @@ h4 {
     font-size: 60px;
     font-weight: bold;
     font-style: italic;
-    color: darkred;
+    color: #8B0000;
     margin-top: 40px;
     margin-bottom: 60px;
     height: 250px; /* Adjust based on desired image size */
@@ -88,9 +88,9 @@ h4 {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    border: 1px solid darkred;
+    border: 1px solid #8B0000;
     border-radius: 5px;
-    color: darkred;
+    color: #8B0000;
     background-color: whitesmoke;
 }
 
@@ -122,7 +122,7 @@ h4 {
     font-size: 24px;
     cursor: pointer;
     text-decoration: none;
-    color: darkred;
+    color: #8B0000;
 }
 
 .about-section, .whatsnew-section {
@@ -145,7 +145,7 @@ h4 {
 }
 
 #startButton {
-    background-color: darkred;
+    background-color: #8B0000;
     color: white;
     font-size: 24px;
     padding: 15px 30px;
