@@ -5,7 +5,6 @@ This is the Kukuk todo file
 - [ ] Simultaneous play/show kuku sound and kuku message
 
 ## ToDo
-- [ ] App icons
 
 ## In Progress
 - [ ] `Warning:` kukuk.js: needs testing
@@ -42,3 +41,4 @@ This is the Kukuk todo file
   - [*] W: Method 'playKukuSound()' is never used
   - [*] W: Method 'getAboutData()' is never used
   - [*] W: It's possible to extract method returning 'fallbackData' from a long surrounding method
+- [*] App icons
