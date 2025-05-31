@@ -5,6 +5,9 @@ Changelog for Kuku 2 - the WebView version
 ### Added
 - app icons
 
+### Changed
+- swap css color names for hex code
+
 ---
 
 ## [2.0.2] - 2025-05-30
