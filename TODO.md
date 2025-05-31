@@ -2,6 +2,7 @@
 This is the Kukuk todo file
 
 ## FixMe
+- [ ] Simultaneous playing of sound and message
 
 ## ToDo
 - [ ] App icons
