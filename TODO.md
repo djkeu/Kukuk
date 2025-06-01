@@ -42,3 +42,4 @@ This is the Kukuk todo file
 - [*] App icons
 - [*] Simultaneous play/show kuku sound and kuku message
 - [*] Restore start screen/button to assure correct playing of alarms
+- [*] Replace dotted hamburger menu with dashed menu for readability
