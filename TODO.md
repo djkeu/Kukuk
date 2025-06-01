@@ -2,26 +2,25 @@
 This is the Kukuk todo file
 
 ## FixMe
-- [ ] Simultaneous play/show kuku sound and kuku message
 
 ## ToDo
 
 ## In Progress
-- [ ] `Warning:` kukuk.js: needs testing
-  - [*] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
-  - [*] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
 - [ ] About, What's new
   - [ ] Update information in about.json
-  - [-] Update information in whatsnew.json
 - [ ] README.md: About Kuku section
 
 ## Abandoned
 - [-] Message of the day
-- [-] User notification about What's new
+- [-] User notification for About / What's new
+- [-] What's new
 - [-] Dark theme
 - [-] Show bird when kuku-ing
 - [-] Analogue clock inside drawing
 - [-] Continuous play when not active on mobile device, see ./doc/continuousPlay.md for explanation and sample code
+- [-] Stress test app / kukuk.js for sound issues when:
+  - [-] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
+  - [*] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
 
 ## Done
 - [*] Convert from Netlify to Android WebView app
@@ -42,3 +41,5 @@ This is the Kukuk todo file
   - [*] W: Method 'getAboutData()' is never used
   - [*] W: It's possible to extract method returning 'fallbackData' from a long surrounding method
 - [*] App icons
+- [*] Simultaneous play/show kuku sound and kuku message
+- [*] Restore start screen/button to assure correct playing of alarms
