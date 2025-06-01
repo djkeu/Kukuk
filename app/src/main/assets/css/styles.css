@@ -102,7 +102,7 @@ h4 {
 
 .back-container {
     position: absolute;
-    top: 0px;
+    top: -10px;
     left: 10px;
 }
 
