@@ -134,6 +134,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @JavascriptInterface
+        @SuppressWarnings("unused") // Called from JavaScript
         public void playKukuSound() {
             runOnUiThread(() -> {
                 if (audioPlayers != null && !audioPlayers.isEmpty()) {
@@ -150,6 +151,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @JavascriptInterface
+        @SuppressWarnings("unused") // Called from JavaScript
         public String getAboutData() {
             return aboutDataCache != null ? aboutDataCache : "{}";
         }
