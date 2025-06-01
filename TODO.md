@@ -6,9 +6,8 @@ This is the Kukuk todo file
 ## ToDo
 
 ## In Progress
-- [ ] About, What's new
-  - [ ] Update information in about.json
-- [ ] README.md: About Kuku section
+- [ ] Update information in about.json
+- [*] README.md: About Kuku section
 
 ## Abandoned
 - [-] Message of the day
