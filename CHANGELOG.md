@@ -1,11 +1,14 @@
 # Changelog
 Changelog for Kuku 2 - the WebView version
 
-## [2.0.3] - 2025-05-31
+## [2.0.3] - 2025-06-01
+### Fixed
+- simultaneous play of sound and message in alarms
 ### Added
 - app icons
 ### Changed
-- swap css color names for hex code
+- swap css color names for hex codes
+- restore Start button/screen
 
 ---
 
