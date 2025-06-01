@@ -5,7 +5,7 @@
     <title>
         Kuku
     </title>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,10 +21,10 @@
 <body>
     <!-- Start Screen Overlay -->
     <div id="startScreen" class="start-screen">
-    <button id="startButton" class="start-button">Start Kuku</button>
+        <button id="startButton" class="start-button">Start Kuku</button>
     </div>
     <h1>Kuku</h1>
-    
+
     <div id="kuku_time" class="clock">
         00:00:00
     </div>
@@ -34,13 +34,19 @@
         <span>Kuku!</span>
         <img src="images/kuku10Right.png" alt="Kuku Image" class="kuku-image">
     </div>
- 
+
     <!-- Alarm selector -->
     <label for="alarmSelector">Select Kukus</label>
     <select id="alarmSelector" class="selector">
-        <option value="minutely">Minutes</option>
-        <option value="quarterly_hourly" selected>Hours and fifteen minutes</option>
-        <option value="hourly">Hours</option>
+        <option value="minutely">
+            Minutes
+        </option>
+        <option value="quarterly_hourly" selected>
+            Hours and fifteen minutes
+        </option>
+        <option value="hourly">
+            Hours
+        </option>
     </select>
 
     <!-- Menu Button top right -->
@@ -51,4 +57,5 @@
     <!-- JavaScript -->
     <script type="module" src="js/kukuk.js"></script>
 </body>
+
 </html>
