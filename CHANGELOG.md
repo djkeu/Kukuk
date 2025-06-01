@@ -9,6 +9,7 @@ Changelog for Kuku 2 - the WebView version
 ### Changed
 - swap css color names for hex codes
 - restore Start button/screen
+- remove purple ActionBar from theme.xml
 
 ---
 
