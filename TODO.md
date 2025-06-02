@@ -2,7 +2,6 @@
 This is the Kukuk todo file
 
 ## FixMe
-- : : Remove purple header bar
 
 ## ToDo
 
@@ -54,3 +53,4 @@ This is the Kukuk todo file
   7. [*] main.js - Entry point
   8. [*] kukuk.html - Usage in HTML
 - [*] README.md: update About Kuku section
+- [*] Remove purple header bar
