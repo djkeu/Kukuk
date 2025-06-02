@@ -5,6 +5,7 @@ Changelog for Kuku 2
 ### Changed
 - move about.js to ./js/
 - modularize kukuk.js into the added modules below
+- move Minutely Alarms option in kukuk.html to third place
 ### Added
 - audioManager.js - Sound handling
 - imageManager.js - Kuku clock image alternating and display
