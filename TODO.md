@@ -8,7 +8,6 @@ This is the Kukuk todo file
 
 ## In Progress
 - [ ] Update information in about.json
-- [*] README.md: About Kuku section
 
 ## Abandoned
 - [-] Message of the day
@@ -54,3 +53,4 @@ This is the Kukuk todo file
   6. [*] kukuClock.js - Main orchestrator
   7. [*] main.js - Entry point
   8. [*] kukuk.html - Usage in HTML
+- [*] README.md: update About Kuku section
