@@ -37,6 +37,7 @@ export class KukuClock {
         
         this.audioManager.setPlaying(true);
         this.imageManager.stopAlternating();
+        this.imageManager.hideImage(); // Hide the image completely
 
         try {
             for (let i = 0; i < times; i++) {
@@ -51,7 +52,7 @@ export class KukuClock {
             }
         } finally {
             this.audioManager.setPlaying(false);
-            this.imageManager.startAlternating();
+            this.imageManager.startAlternating(); // This will show and resume alternating
         }
     }
 

@@ -7,6 +7,7 @@ export class ImageManager {
     }
 
     startAlternating() {
+        this.showImage(); // Make sure image is visible when starting
         this.intervalId = setInterval(() => this.toggle(), 1000);
     }
 
@@ -27,5 +28,10 @@ export class ImageManager {
     hideImage() {
         const kukuImage = this.container.querySelector('.kuku-image');
         kukuImage.style.display = 'none';
+    }
+
+    showImage() {
+        const kukuImage = this.container.querySelector('.kuku-image');
+        kukuImage.style.display = 'block';
     }
 }
