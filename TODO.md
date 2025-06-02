@@ -5,6 +5,10 @@ This is the Kukuk todo file
 
 ## ToDo
 - [ ] styles.css: revamp app
+  - [ ] Heading: replace text with drawing
+  - [ ] Kuku message: replace text with drawing
+  - [ ] margins
+  - [ ] clock images left/right
   - [ ] ...
 
 ## In Progress
