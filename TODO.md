@@ -5,17 +5,6 @@ This is the Kukuk todo file
 - : : Remove purple header bar
 
 ## ToDo
-- [ ] Modularize kukuk.js
-  See KUKU_MODULES.md
-  1. [*] audioManager.js - Sound handling
-  2. [*] imageManage.js - Image alternation and display
-  3. [*] messageDisplay.js - Text message showing/hiding
-  4. [*] alarmScheduler.js - Alarm timing logic
-  5. [*] timeDisplay.js - Clock display
-  6. [*] kukuClock.js - Main orchestrator
-  7. [*] main.js - Entry point
-  8. [*] kukuk.html - Usage in HTML
-
 
 ## In Progress
 - [ ] Update information in about.json
@@ -55,3 +44,13 @@ This is the Kukuk todo file
 - [*] Simultaneous play/show kuku sound and kuku message
 - [*] Restore start screen/button to assure correct playing of alarms
 - [*] Replace dotted hamburger menu with dashed menu for readability
+- [*] Modularize kukuk.js
+  See KUKU_MODULES.md
+  1. [*] audioManager.js - Sound handling
+  2. [*] imageManage.js - Image alternation and display
+  3. [*] messageDisplay.js - Text message showing/hiding
+  4. [*] alarmScheduler.js - Alarm timing logic
+  5. [*] timeDisplay.js - Clock display
+  6. [*] kukuClock.js - Main orchestrator
+  7. [*] main.js - Entry point
+  8. [*] kukuk.html - Usage in HTML
