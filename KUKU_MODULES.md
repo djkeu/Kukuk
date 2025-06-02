@@ -60,7 +60,7 @@ export class ImageManager {
 }
 ```
 
-## 3. **messageDisplay.js** - Text message showing/hiding
+## 3. `ToDo:` **messageDisplay.js** - Text message showing/hiding
 ```javascript
 export class MessageDisplay {
     constructor(messageContainer) {
@@ -84,7 +84,7 @@ export class MessageDisplay {
 }
 ```
 
-## 4. **alarmScheduler.js** - Alarm timing logic
+## 4. `ToDo:` **alarmScheduler.js** - Alarm timing logic
 ```javascript
 export class AlarmScheduler {
     static shouldTriggerMinutely() {
@@ -121,7 +121,7 @@ export class AlarmScheduler {
 }
 ```
 
-## 5. **timeDisplay.js** - Clock display
+## 5. `ToDo:` **timeDisplay.js** - Clock display
 ```javascript
 export class TimeDisplay {
     constructor(timeElement) {
@@ -148,7 +148,7 @@ export class TimeDisplay {
 }
 ```
 
-## 6. **kukuClock.js** - Main orchestrator
+## 6. `ToDo:` **kukuClock.js** - Main orchestrator
 ```javascript
 import { AudioManager } from './audioManager.js';
 import { ImageManager } from './imageManager.js';
@@ -259,7 +259,7 @@ export class KukuClock {
 }
 ```
 
-## 7. **main.js** - Entry point
+## 7. `ToDo:` **main.js** - Entry point
 ```javascript
 import { KukuClock } from './kukuClock.js';
 
@@ -267,6 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
     new KukuClock();
 });
 ```
+
 
 ## Benefits of This Structure
 
