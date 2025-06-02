@@ -10,10 +10,10 @@ This is the Kukuk todo file
   1. [*] AudioManager.js - Sound handling
   2. [*] ImageManage.js - Image alternation and display
   3. [*] MessageDisplay.js - Text message showing/hiding
-  4. [ ] AlarmScheduler.js - Alarm timing logic
-  5. [ ] TimeDisplay.js - Clock display
-  6. [ ] KukuClock.js - Main orchestrator
-  7. [ ] main.js - Entry point
+  4. [*] AlarmScheduler.js - Alarm timing logic
+  5. [*] TimeDisplay.js - Clock display
+  6. [*] KukuClock.js - Main orchestrator
+  7. [*] main.js - Entry point
   8. [ ] kukuk.html - Usage in HTML
 
 
