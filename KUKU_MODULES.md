@@ -1,7 +1,6 @@
 # Recommended Module Structure
 
-## 1. **AudioManager.js** - Sound handling
-`Done:`
+## 1. `Done:` **AudioManager.js** - Sound handling
 ```javascript
 export class AudioManager {
     constructor(soundPath) {
