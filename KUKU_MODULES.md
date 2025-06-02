@@ -1,6 +1,6 @@
 # Recommended Module Structure
 
-## 1. `Done:` **AudioManager.js** - Sound handling
+## 1. `Done:` **audioManager.js** - Sound handling
 ```javascript
 export class AudioManager {
     constructor(soundPath) {
@@ -25,7 +25,7 @@ export class AudioManager {
 }
 ```
 
-## 2. **ImageManager.js** - Image alternation and display
+## 2. `Done:` **imageManager.js** - Image alternation and display
 ```javascript
 export class ImageManager {
     constructor(imageContainer, imagePaths) {
@@ -60,7 +60,7 @@ export class ImageManager {
 }
 ```
 
-## 3. **MessageDisplay.js** - Text message showing/hiding
+## 3. **messageDisplay.js** - Text message showing/hiding
 ```javascript
 export class MessageDisplay {
     constructor(messageContainer) {
@@ -84,7 +84,7 @@ export class MessageDisplay {
 }
 ```
 
-## 4. **AlarmScheduler.js** - Alarm timing logic
+## 4. **alarmScheduler.js** - Alarm timing logic
 ```javascript
 export class AlarmScheduler {
     static shouldTriggerMinutely() {
@@ -121,7 +121,7 @@ export class AlarmScheduler {
 }
 ```
 
-## 5. **TimeDisplay.js** - Clock display
+## 5. **timeDisplay.js** - Clock display
 ```javascript
 export class TimeDisplay {
     constructor(timeElement) {
@@ -148,13 +148,13 @@ export class TimeDisplay {
 }
 ```
 
-## 6. **KukuClock.js** - Main orchestrator
+## 6. **kukuClock.js** - Main orchestrator
 ```javascript
-import { AudioManager } from './AudioManager.js';
-import { ImageManager } from './ImageManager.js';
-import { MessageDisplay } from './MessageDisplay.js';
-import { AlarmScheduler } from './AlarmScheduler.js';
-import { TimeDisplay } from './TimeDisplay.js';
+import { AudioManager } from './audioManager.js';
+import { ImageManager } from './imageManager.js';
+import { MessageDisplay } from './messageDisplay.js';
+import { AlarmScheduler } from './alarmScheduler.js';
+import { TimeDisplay } from './timeDisplay.js';
 
 export class KukuClock {
     constructor() {
@@ -261,7 +261,7 @@ export class KukuClock {
 
 ## 7. **main.js** - Entry point
 ```javascript
-import { KukuClock } from './KukuClock.js';
+import { KukuClock } from './kukuClock.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     new KukuClock();
