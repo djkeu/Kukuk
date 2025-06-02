@@ -3,7 +3,18 @@ Changelog for Kuku 2
 
 ## [2.0.4] - 2025-06-02
 ### Changed
-- modularize kukuk.js
+- move about.js to ./js/
+- modularize kukuk.js into the added modules below
+### Added
+- audioManager.js - Sound handling
+- imageManager.js - Kuku clock image alternating and display
+- messageDisplay.js - Kuku text message showing and hiding
+- alarmScheduler.js - Alarm timing logic
+- timeDisplay.js - Clock display
+- kukuClock.js - Main orchestrator
+- main.js - Entry point
+### Removed
+- remove kukuk.js
 
 ---
 
