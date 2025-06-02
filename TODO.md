@@ -7,12 +7,12 @@ This is the Kukuk todo file
 ## ToDo
 - [ ] Modularize kukuk.js
   See KUKU_MODULES.md
-  1. [*] AudioManager.js - Sound handling
-  2. [*] ImageManage.js - Image alternation and display
-  3. [*] MessageDisplay.js - Text message showing/hiding
-  4. [*] AlarmScheduler.js - Alarm timing logic
-  5. [*] TimeDisplay.js - Clock display
-  6. [*] KukuClock.js - Main orchestrator
+  1. [*] audioManager.js - Sound handling
+  2. [*] imageManage.js - Image alternation and display
+  3. [*] messageDisplay.js - Text message showing/hiding
+  4. [*] alarmScheduler.js - Alarm timing logic
+  5. [*] timeDisplay.js - Clock display
+  6. [*] kukuClock.js - Main orchestrator
   7. [*] main.js - Entry point
   8. [ ] kukuk.html - Usage in HTML
 
