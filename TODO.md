@@ -16,9 +16,9 @@ This is the Kukuk todo file
 - [-] Show bird when kuku-ing
 - [-] Analogue clock inside drawing
 - [-] Continuous play when not active on mobile device, see ./doc/continuousPlay.md for explanation and sample code
-- [-] Stress test app / kukuk.js for sound issues when:
+- [-] Stress test app / kukuk.js for sound issues with:
   - [-] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
-  - [*] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
+  - [-] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
 
 ## Done
 - [*] Convert from Netlify to Android WebView app
