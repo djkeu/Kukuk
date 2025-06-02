@@ -14,7 +14,7 @@ This is the Kukuk todo file
   5. [*] timeDisplay.js - Clock display
   6. [*] kukuClock.js - Main orchestrator
   7. [*] main.js - Entry point
-  8. [ ] kukuk.html - Usage in HTML
+  8. [*] kukuk.html - Usage in HTML
 
 
 ## In Progress
