@@ -5,6 +5,7 @@ This is the Kukuk todo file
 
 ## ToDo
 - [ ] styles.css: revamp app
+  - [ ] ...
 
 ## In Progress
 - [ ] Update / expand README.md

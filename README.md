@@ -19,7 +19,7 @@ Minutely alarms are included for testing/showcasing purposes only.
     - Kotlin road: coroutines
     - Use of CoPilots
 
-The [1.3] version of the app is still available on Netlify, https://kuku-klok.netlify.app/, for non-Android systems. Although the interface hasn't changed much, the current version [2.0.x] is specifically tailored for Android and has several improvements under the hood and is therefore recommended over the [1.3] version when possible.
+For the poor souls who don't have an Android device, the [1.3] version of the app is available on Netlify at `https://kuku-klok.netlify.app/`. [`ToDo:`] Although the interface hasn't changed much, the current version [2.0.x] is specifically tailored for Android and has several improvements under the hood and is therefore recommended over the [1.3] version when possible.
 
 ## About Kuku
 This section will not be updated. A more current and complete version of 'About Kuku' is available through the app.
