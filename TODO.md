@@ -6,7 +6,6 @@ This is the Kukuk todo file
 ## ToDo
 
 ## In Progress
-- [ ] Update information in about.json
 - [ ] Update / expand README.md
 
 ## Abandoned
@@ -55,3 +54,4 @@ This is the Kukuk todo file
   8. [*] kukuk.html - Usage in HTML
 - [*] README.md: update About Kuku section
 - [*] Remove purple header bar
+- [*] Update information in about.json
