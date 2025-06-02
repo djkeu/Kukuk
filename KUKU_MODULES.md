@@ -60,7 +60,7 @@ export class ImageManager {
 }
 ```
 
-## 3. `ToDo:` **messageDisplay.js** - Text message showing/hiding
+## 3. `Done:` **messageDisplay.js** - Text message showing/hiding
 ```javascript
 export class MessageDisplay {
     constructor(messageContainer) {
