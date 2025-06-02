@@ -14,6 +14,7 @@ Changelog for Kuku 2
 - timeDisplay.js - Clock display
 - kukuClock.js - Main orchestrator
 - main.js - Entry point
+- LICENCE
 ### Removed
 - remove kukuk.js
 
