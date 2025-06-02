@@ -84,7 +84,7 @@ export class MessageDisplay {
 }
 ```
 
-## 4. `ToDo:` **alarmScheduler.js** - Alarm timing logic
+## 4. `Done:` **alarmScheduler.js** - Alarm timing logic
 ```javascript
 export class AlarmScheduler {
     static shouldTriggerMinutely() {
