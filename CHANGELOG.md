@@ -1,5 +1,5 @@
 # Changelog
-Changelog for Kuku 2 - the WebView version
+Changelog for Kuku 2
 
 ## [2.0.3] - 2025-06-01
 ### Fixed
