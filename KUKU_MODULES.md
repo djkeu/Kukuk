@@ -121,7 +121,7 @@ export class AlarmScheduler {
 }
 ```
 
-## 5. `ToDo:` **timeDisplay.js** - Clock display
+## 5. `Done:` **timeDisplay.js** - Clock display
 ```javascript
 export class TimeDisplay {
     constructor(timeElement) {
