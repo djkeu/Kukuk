@@ -7,6 +7,7 @@ This is the Kukuk todo file
 
 ## In Progress
 - [ ] Update information in about.json
+- [ ] Update / expand README.md
 
 ## Abandoned
 - [-] Message of the day
