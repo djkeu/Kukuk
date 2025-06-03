@@ -1,11 +1,13 @@
 # Kuku - a digital cuckoo clock for Android
 
 ## Index
-1. Description
-2. About Kuku
-3. Disclaimer
-4. Prototypes
-5. Obsolete version
+- 1. Description
+- About Kuku
+- Disclaimer
+- Credits: audacity, etc
+- Prototypes
+- Obsolete version
+
 
 
 ## 1. Description
@@ -21,6 +23,12 @@ Minutely alarms are included for testing/showcasing purposes only. See `3. Discl
 
 ### Roads
 - Why (motivation)
+    - ...
+
+    So, I figured I should pause my musical carreer and take some time off to record 'koekoek'
+
+    - 
+    - yes, it's really just about having my voice heard saying 'koekoek'
 - How (the journey)
     - Python road
     - Kotlin road: coroutines
@@ -31,18 +39,18 @@ Minutely alarms are included for testing/showcasing purposes only. See `3. Discl
 For the poor souls who don't have an Android device, the [1.3] version of the app is available on Netlify at `https://kuku-klok.netlify.app/`. [`ToDo:`] The current version [2.0.x] is specifically tailored for Android and has several improvements under the hood and is therefore recommended over the [1.3] version when possible.
 
 
-## 2. About Kuku
+## About Kuku
 This section is accurate but incomplete and will not be updated. A more current and complete version of 'About Kuku' is available through the app.
 - App: Kuku
 - Author: Marc Kooij
 - Github: https://github.com/djkeu/Kukuk
 
 
-## 3. Disclaimer
+## Disclaimer
 Use at your own risk. The developer is not liable for any issues caused by this app.
 
 
-## 4. Prototypes
+## Prototypes
 ### Kukuk [0.1] - Python:
 Experimenting with Pygame and ultimately using Kivy framework for GUI\
 Github repository: https://github.com/djkeu/kukuk_python
@@ -52,7 +60,7 @@ Switch to Kotlin for better performance on Android\
 Github repository: https://github.com/djkeu/kukuk-kotlin
 
 
-## 5. Obsolete version:
+## Obsolete version:
 ### Kukuk [1.3] - Netlify:
 Switch to JavaScript for deployment to Netlify\
 Year of development: 2024\
