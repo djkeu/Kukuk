@@ -4,6 +4,10 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
+- [*] Menu
+  - [*] About
+  - [+] Change background color app
+  - [-] What's new
 
 ## In Progress
 - [ ] Update / expand README.md
@@ -20,15 +24,11 @@ This is the Kukuk todo file
   - [-] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
   - [-] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
 
-## Done
+## Done / Fixed
 - [*] Convert from Netlify to Android WebView app
 - [*] Sound
   - [*] Sound on physical device (phone)
   - [*] Sound in emulator
-- [*] Menu button
-  - [*] About
-  - [-] What's new
-  - [-] Dark theme 
 - [*] about.js: about.json not loading
 - [*] MainActivity:
   - [*] W: setJavaScriptEnabled XSS vulnerabilities
