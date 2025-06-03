@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
             try {
                 JSONObject fallbackData = new JSONObject();
                 fallbackData.put("App Name", "Kuku Clock");
-                fallbackData.put("Version", "2.0.2");
+                fallbackData.put("Version", "2.0.4");
                 fallbackData.put("Developer", "Marc Kooij");
                 aboutDataCache = fallbackData.toString();
             } catch (JSONException fallbackException) {
