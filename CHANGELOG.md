@@ -1,6 +1,13 @@
 # Changelog
 Changelog for Kuku 2
 
+## [2.0.5] - 2025-06-03
+### Changed
+- replace kuku text header with drawing of text
+- replace kuku text message with drawing of text
+
+---
+
 ## [2.0.4] - 2025-06-02
 ### Changed
 - move about.js to ./js/
