@@ -4,10 +4,10 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
-- [ ] revamp app
-  - [ ] Heading: replace text with drawing
+- [ ] Revamp app
+  - [8] Heading: replace text with drawing
   - [ ] Kuku message: replace text with drawing
-  - [ ] margins
+  - [*] margins
   - [*] clock images left/right
   - [ ] ...
 
