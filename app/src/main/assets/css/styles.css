@@ -50,7 +50,7 @@ h4 {
 
 .kuku-header {
   width: 100%;
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -110,8 +110,8 @@ h4 {
 
 .menu-container {
     position: absolute;
-    top: 20px;
-    right: 0px;
+    top: 40px;
+    right: -40px;
 }
 
 .back-container {
