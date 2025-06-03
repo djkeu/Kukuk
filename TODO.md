@@ -4,12 +4,6 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
-- [ ] Revamp app
-  - [*] Heading: replace text with drawing
-  - [*] Kuku message: replace text with drawing
-  - [*] margins
-  - [*] clock images left/right
-  - [ ] ...
 
 ## In Progress
 - [ ] Update / expand README.md
@@ -61,3 +55,8 @@ This is the Kukuk todo file
 - [*] README.md: update About Kuku section
 - [*] Remove purple header bar
 - [*] Update information in about.json
+- [*] Revamp app
+  - [*] Heading: replace text with drawing
+  - [*] Kuku message: replace text with drawing
+  - [*] margins
+  - [*] clock images left/right
