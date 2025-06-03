@@ -49,20 +49,14 @@ h4 {
 }
 
 .kuku-header {
-  width: 80%;
+  width: 100%;
   margin-top: 60px;
   margin-bottom 20px;
 }
 
 .kuku-message {
-    font-family: "Acme", sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    font-style: italic;
-    color: #8B0000;
-    margin-top: 40px;
+    margin-top: 0px;
     margin-bottom: 60px;
-    height: 250px; /* Adjust based on desired image size */
     width: 100%;
     display: flex;
     justify-content: center;
