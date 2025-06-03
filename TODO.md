@@ -5,8 +5,8 @@ This is the Kukuk todo file
 
 ## ToDo
 - [ ] Revamp app
-  - [8] Heading: replace text with drawing
-  - [ ] Kuku message: replace text with drawing
+  - [*] Heading: replace text with drawing
+  - [*] Kuku message: replace text with drawing
   - [*] margins
   - [*] clock images left/right
   - [ ] ...
