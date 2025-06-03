@@ -55,14 +55,24 @@ h4 {
 }
 
 .kuku-message {
-    margin-top: 0px;
-    margin-bottom: 60px;
-    width: 100%;
+    margin-top: 100px;
+    height: 200px; /* Set a fixed height */
     display: flex;
-    justify-content: center;
     align-items: center;
-    position: relative;
-    overflow: hidden;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.kuku-message img {
+    max-height: 100%;
+    width: auto;
+}
+
+.kuku-message img[src*="kukuMessage.png"] {
+    max-width: 70vw;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 140px;
 }
 
 .kuku-message span {
