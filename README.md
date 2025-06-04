@@ -50,6 +50,18 @@ This section is accurate but incomplete and will not be updated. A more current 
 Use at your own risk. The developer is not liable for any issues caused by this app.
 
 
+## Credits
+Android Studio
+VSCode
+Lubuntu 24.04
+Audacity
+Libre Office Draw
+Google Keep
+GIMP
+XnViewMp
+Featherpad
+
+
 ## Prototypes
 ### Kukuk [0.1] - Python:
 Experimenting with Pygame and ultimately using Kivy framework for GUI\
