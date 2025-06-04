@@ -2,13 +2,19 @@
 
 
 ## Index
-- 1. Description
-- About Kuku
-- Disclaimer
-- Credits: audacity, etc
-- Prototypes
-- Obsolete version
-
+1. Description
+    - Pitch
+    - Actual description
+    - Roads
+    - Odds and ends
+2. About Kuku
+3. Disclaimer
+4. Credits: software
+5. Prototypes
+    - 0.1 - Python
+    - 0.2 - Kotlin 
+6. Obsolete version
+    - 1.3 - Netlify
 
 
 ## 1. Description
@@ -27,7 +33,6 @@ Minutely alarms are included for testing/showcasing purposes only. See `3. Discl
 
 
     - 
-    - yes, it's really just about having my voice heard, saying 'kukuk'
 - How (the journey)
     - Python road
     - Kotlin road: coroutines
@@ -37,18 +42,18 @@ Minutely alarms are included for testing/showcasing purposes only. See `3. Discl
 For the poor souls who don't have an Android device, the [1.3] version of the app is available on Netlify at `https://kuku-klok.netlify.app/`. The current version [2.0.x] is specifically tailored for Android, has several improvements under the hood and is therefore recommended over the [1.3] version when possible.
 
 
-## About Kuku
+## 2. About Kuku
 This section is accurate but very basic and will not be updated, to prevent multiple different versions of this section circulating throughout the code/app. A more current and complete version of 'About Kuku' is available through the app and in the `app/src/main/assets/` folder.
 - App: Kuku
 - Author: Marc Kooij
 - Github: https://github.com/djkeu/Kukuk
 
 
-## Disclaimer
+## 3. Disclaimer
 Use at your own risk. The developer is not liable for any issues caused by this app.
 
 
-## Credits
+## 4. Credits
 ### Software used
 Android Studio
 VSCode
@@ -61,7 +66,7 @@ XnViewMp
 
 And yes, that's me voicing the Kuku
 
-## Prototypes
+## 5. Prototypes
 ### Kukuk [0.1] - Python:
 Experimenting with Pygame and ultimately using Kivy framework for GUI\
 Github repository: https://github.com/djkeu/kukuk_python
@@ -71,7 +76,7 @@ Switch to Kotlin for better performance on Android\
 Github repository: https://github.com/djkeu/kukuk-kotlin
 
 
-## Obsolete version:
+## 6. Obsolete version:
 ### Kukuk [1.3] - Netlify:
 Switch to JavaScript for deployment to Netlify\
 Year of development: 2024\
