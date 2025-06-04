@@ -4,10 +4,6 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
-- [*] Menu
-  - [*] About
-  - [+] Change background color app
-  - [-] What's new
 
 ## In Progress
 - [ ] Update / expand README.md
@@ -55,6 +51,10 @@ This is the Kukuk todo file
 - [*] README.md: update About Kuku section
 - [*] Remove purple header bar
 - [*] Update information in about.json
+- [*] Menu
+  - [*] About
+  - [-] Change background color app
+  - [-] What's new
 - [*] Revamp app
   - [*] Heading: replace text with drawing
   - [*] Kuku message: replace text with drawing
