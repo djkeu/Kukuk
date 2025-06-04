@@ -1,5 +1,6 @@
 # Kuku - a digital cuckoo clock for Android
 
+
 ## Index
 - 1. Description
 - About Kuku
@@ -20,7 +21,6 @@ Kuku is an app that mimics a cuckoo-clock in a cartoonish style. By default a cu
 
 Minutely alarms are included for testing/showcasing purposes only. See `3. Disclaimer` if you insist on using it for any other purposes beyond those just stated.
 
-
 ### Roads
 - Why (motivation)
     - ...
@@ -34,13 +34,12 @@ Minutely alarms are included for testing/showcasing purposes only. See `3. Discl
     - Kotlin road: coroutines
     - Use of CoPilots
 
-
 ### Odds and ends
 For the poor souls who don't have an Android device, the [1.3] version of the app is available on Netlify at `https://kuku-klok.netlify.app/`. [`ToDo:`] The current version [2.0.x] is specifically tailored for Android and has several improvements under the hood and is therefore recommended over the [1.3] version when possible.
 
 
 ## About Kuku
-This section is accurate but incomplete and will not be updated. A more current and complete version of 'About Kuku' is available through the app.
+This section is accurate but very basic and will not be updated, to prevent multiple defferent versions of this section circulating. A more current and complete version of 'About Kuku' is available through the app and in the assets folder.
 - App: Kuku
 - Author: Marc Kooij
 - Github: https://github.com/djkeu/Kukuk
