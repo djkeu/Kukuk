@@ -34,11 +34,11 @@ Minutely alarms are included for testing/showcasing purposes only. See `3. Discl
     - Use of CoPilots
 
 ### Odds and ends
-For the poor souls who don't have an Android device, the [1.3] version of the app is available on Netlify at `https://kuku-klok.netlify.app/`. [`ToDo:`] The current version [2.0.x] is specifically tailored for Android and has several improvements under the hood and is therefore recommended over the [1.3] version when possible.
+For the poor souls who don't have an Android device, the [1.3] version of the app is available on Netlify at `https://kuku-klok.netlify.app/`. The current version [2.0.x] is specifically tailored for Android, has several improvements under the hood and is therefore recommended over the [1.3] version when possible.
 
 
 ## About Kuku
-This section is accurate but very basic and will not be updated, to prevent multiple defferent versions of this section circulating. A more current and complete version of 'About Kuku' is available through the app and in the assets folder.
+This section is accurate but very basic and will not be updated, to prevent multiple different versions of this section circulating throughout the code/app. A more current and complete version of 'About Kuku' is available through the app and in the `app/src/main/assets/` folder.
 - App: Kuku
 - Author: Marc Kooij
 - Github: https://github.com/djkeu/Kukuk
@@ -49,6 +49,7 @@ Use at your own risk. The developer is not liable for any issues caused by this 
 
 
 ## Credits
+### Software used
 Android Studio
 VSCode
 Lubuntu 24.04
@@ -58,6 +59,7 @@ Google Keep
 GIMP
 XnViewMp
 
+And yes, that's me voicing the Kuku
 
 ## Prototypes
 ### Kukuk [0.1] - Python:
