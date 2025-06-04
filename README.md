@@ -25,10 +25,9 @@ Minutely alarms are included for testing/showcasing purposes only. See `3. Discl
 - Why (motivation)
     - ...
 
-    So, I figured I should pause my musical carreer and take some time off to record 'koekoek'
 
     - 
-    - yes, it's really just about having my voice heard saying 'koekoek'
+    - yes, it's really just about having my voice heard, saying 'kukuk'
 - How (the journey)
     - Python road
     - Kotlin road: coroutines
@@ -58,7 +57,6 @@ Libre Office Draw
 Google Keep
 GIMP
 XnViewMp
-Featherpad
 
 
 ## Prototypes
