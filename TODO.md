@@ -4,6 +4,7 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
+- index.html/kukuk.html: kukuk omit Start screen/button 
 
 ## In Progress
 - [ ] Update / expand README.md
