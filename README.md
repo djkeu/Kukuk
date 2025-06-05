@@ -1,5 +1,7 @@
 # Kuku - a digital cuckoo clock for Android
 
+`Note:` This is a work in progress
+
 
 ## Index
 1. Description
