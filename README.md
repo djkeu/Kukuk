@@ -29,12 +29,9 @@ Kuku is an app that mimics a cuckoo-clock in a cartoonish style. By default a cu
 
 Minutely alarms are included for testing/showcasing purposes only. See `3. Disclaimer` if you insist on using it for any other purposes beyond those just stated.
 
-### Roads
-- Why (motivation)
-    - ...
+### Why and how
+After having finished some Python tutorials, I figured it was time to have a go at writing a real program, preferably one that would take the world by storm and earn me my rightful position between the tech millionaires. After having a good look around I realized this one niche that was going to achieve that goal was going to be a digital cuckoo clock. I immediately took to work, paused my musical carreer to record the Kuku sound that is actually still in use in the current version and started working on a Python version with Pygame, which was at that time the only GUI for Python that I had some experience with. I soon realized that, since Kukuk as I named the program, was not going to be a game, Pygame might not be the best fit and I switched to the Kivy framework
 
-
-    - 
 - How (the journey)
     - Python road
     - Kotlin road: coroutines
@@ -45,7 +42,7 @@ For the poor souls who don't have an Android device, the [1.3] version of the ap
 
 
 ## 2. About Kuku
-This section is accurate but very basic and will not be updated, to prevent multiple different versions of this section circulating throughout the code/app. A more current and complete version of 'About Kuku' is available through the app and in the `app/src/main/assets/` folder.
+This section is accurate but very basic and will not be updated and may ultimately even be removed in its entirety, to prevent multiple different versions of this section circulating throughout the code/app. A more current and complete version of 'About Kuku' is available through the app and in the `app/src/main/assets/` folder.
 - App: Kuku
 - Author: Marc Kooij
 - Github: https://github.com/djkeu/Kukuk
@@ -59,12 +56,25 @@ Use at your own risk. The developer is not liable for any issues caused by this 
 ### Software used
 Android Studio
 VSCode
+Python
+Pygame
+Kivy
+Kotlin
+Javascript
 Lubuntu 24.04
 Audacity
 Libre Office Draw
 Google Keep
 GIMP
 XnViewMp
+
+Netlify.com
+Github.com
+
+AI:
+ChatGPT
+DeepSeek
+Claude
 
 And yes, that's me voicing the Kuku
 
