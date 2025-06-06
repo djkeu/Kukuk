@@ -30,9 +30,9 @@ Kuku is an app that mimics a cuckoo-clock in a cartoonish style. By default a cu
 Minutely alarms are included for testing/showcasing purposes only. See `3. Disclaimer` if you insist on using them.
 
 ### Why and how
-After having finished some Python tutorials, I figured it was time to have a go at writing a real program, preferably one that would take the world by storm and earn me my rightful position between the tech millionaires, so that I would not have to work a single day in my life again. After having a good look around I realized this one niche that I should follow to achieve that goal was going to be a digital cuckoo clock.
+After having finished some Python tutorials, I figured it was time to have a go at writing a real program, preferably one that would take the world by storm and earn me my rightful position between the tech millionaires, so that I would not have to work a single day in my life again. After having a good look around I realized there was just this one niche that I should follow to achieve that goal. And that niche was going to be a digital cuckoo clock.
 
-Cuckoo clocks have been around for centuries
+Cuckoo clocks have been around for centuries in analogue form.
 (..)
 
 I immediately took to work, paused my musical carreer to record the Kuku sound that is actually still in use in the current version and started working on a Python version with Pygame, which was at that time the only GUI for Python that I had some experience with. I soon realized that, since Kukuk as I named the program, was not going to be a game, Pygame might not be the best fit and I switched to the Kivy framework, which was also fairly easy to use and had the extra advantage of being able to run on mobile phones. I did create a prototype using Kivy, but I was not impressed by the long loading times of the app. Now it's hard to say if that was due to my lack of programming experience or if it was an unfortunate aspect of the then current version of Kivy, but I decided to take a leap and give the more native programming languages for Android a try, which led me to Java or Kotlin.
