@@ -5,6 +5,8 @@ Changelog for Kuku 2
 ### Changed
 - replace kuku text header with drawing of text
 - replace kuku text message with drawing of text
+### Removed
+- Google fonts
 
 ---
 
