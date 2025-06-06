@@ -36,7 +36,7 @@ Cuckoo clocks have been around for centuries
 
 I immediately took to work, paused my musical carreer to record the Kuku sound that is actually still in use in the current version and started working on a Python version with Pygame, which was at that time the only GUI for Python that I had some experience with. I soon realized that, since Kukuk as I named the program, was not going to be a game, Pygame might not be the best fit and I switched to the Kivy framework, which was also fairly easy to use and had the extra advantage of being able to run on mobile phones. I did create a prototype using Kivy, but I was not impressed by the long loading times of the app. Now it's hard to say if that was due to my lack of programming experience or if it was an unfortunate aspect of the then current version of Kivy, but I decided to take a leap and give the more native programming languages for Android a try, which led me to Java or Kotlin.
 
-Since the little experience I had with Java was quite frightening and Kotlin was presented as the more future-proof and specially made for Android, I soon decided to go with Kotlin. That was also the time I started using Android Studio.
+Since the little experience I had with Java had been quite frightening and Kotlin was presented as a little easier/elegant, more future-proof and specially made for Android, I soon decided to go with Kotlin. That was also the time I started using Android Studio.
 
 - How (the journey)
     - Python road
