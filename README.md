@@ -27,10 +27,16 @@ Well, bless the marvels of the modern world, you can get one on your Android pho
 ### Actual description
 Kuku is an app that mimics a cuckoo-clock in a cartoonish style. By default a cuckoo sound is played once every 15 minutes and multiple times according to the hour of the day, accompanied by a message. If this is considered too intrusive, the user can choose to have only the hours indicated and omit the 15 minutes alarms.
 
-Minutely alarms are included for testing/showcasing purposes only. See `3. Disclaimer` if you insist on using it for any other purposes beyond those just stated.
+Minutely alarms are included for testing/showcasing purposes only. See `3. Disclaimer` if you insist on using them.
 
 ### Why and how
-After having finished some Python tutorials, I figured it was time to have a go at writing a real program, preferably one that would take the world by storm and earn me my rightful position between the tech millionaires. After having a good look around I realized this one niche that was going to achieve that goal was going to be a digital cuckoo clock. I immediately took to work, paused my musical carreer to record the Kuku sound that is actually still in use in the current version and started working on a Python version with Pygame, which was at that time the only GUI for Python that I had some experience with. I soon realized that, since Kukuk as I named the program, was not going to be a game, Pygame might not be the best fit and I switched to the Kivy framework
+After having finished some Python tutorials, I figured it was time to have a go at writing a real program, preferably one that would take the world by storm and earn me my rightful position between the tech millionaires, so that I would not have to work a single day in my life again. After having a good look around I realized this one niche that I should follow to achieve that goal was going to be a digital cuckoo clock.
+
+Cuckoo clocks have been around for centuries
+
+I immediately took to work, paused my musical carreer to record the Kuku sound that is actually still in use in the current version and started working on a Python version with Pygame, which was at that time the only GUI for Python that I had some experience with. I soon realized that, since Kukuk as I named the program, was not going to be a game, Pygame might not be the best fit and I switched to the Kivy framework, which was fairly easy to use and had the extra advantage of being able to run on mobile phones. I did create a prototype using Kivy, but I was not impressed by the long times of the app. Now it's hard to say if that was due to my lack of programming experience or if it was an unfortunate aspect of the then current version of Kivy, but I decided to take a leap and give the more native programming languages for Android a try, which led me to Java or Kotlin.
+
+Since I did not have any experience with Java or Kotlin 
 
 - How (the journey)
     - Python road
@@ -45,6 +51,7 @@ For the poor souls who don't have an Android device, the [1.3] version of the ap
 This section is accurate but very basic and will not be updated and may ultimately even be removed in its entirety, to prevent multiple different versions of this section circulating throughout the code/app. A more current and complete version of 'About Kuku' is available through the app and in the `app/src/main/assets/` folder.
 - App: Kuku
 - Author: Marc Kooij
+- Licence: MIT
 - Github: https://github.com/djkeu/Kukuk
 
 
