@@ -36,7 +36,7 @@ I immediately took to work, paused my musical carreer to record the Kuku sound t
 
 I did create a prototype using Kivy, but I was not impressed by the long loading times of the app. Now it's hard to say if that was due to my lack of programming experience or if it was an unfortunate aspect of (the then current version of) Kivy, but I decided to take a leap and give the more native programming languages for Android a try, which led me to choose between Java or Kotlin.
 
-Since the little experience I had with Java had been quite frightening and Kotlin was presented as elegant, future-proof and specially made for Android, I decided to go with Kotlin, combined with Android Studio.
+Since the little experience I had with Java had been quite frightening and Kotlin was specially designed for Android, I decided to go with the latter, combined with Android Studio software.
 
 As you probably guessed by now, it has not been a straight road
 
