@@ -29,24 +29,19 @@ Netlify: https://kuku-klok.netlify.app\
 Github: https://github.com/djkeu/kukuk-js
 
 ## Credits
+### Software
 Android Studio
 VSCode
-Python
-Pygame
-Kivy
-Kotlin
-Javascript
-Lubuntu 24.04
 Audacity
 Libre Office Draw
 Google Keep
 GIMP
-XnViewMp
 
+### Websites
 Netlify.com
 Github.com
 
-AI:
+### AI
 ChatGPT
 DeepSeek
 Claude
