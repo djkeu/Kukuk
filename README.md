@@ -15,16 +15,14 @@ Well, bless the marvels of the modern world, you can get one on your Android pho
 
 ## Prototypes
 ### Kukuk [0.1] - Python:
-Github repository: https://github.com/djkeu/kukuk_python
+- Github repository: https://github.com/djkeu/kukuk_python
 
 ### Kukuk [0.2] - Kotlin:
-Github repository: https://github.com/djkeu/kukuk-kotlin
+- Github repository: https://github.com/djkeu/kukuk-kotlin
 
 ### Kukuk [1.3] - Netlify:
-Switching to JavaScript for deployment on Netlify\
-Year of development: 2024\
-Netlify: https://kuku-klok.netlify.app\
-Github: https://github.com/djkeu/kukuk-js
+- Netlify: https://kuku-klok.netlify.app
+- Github: https://github.com/djkeu/kukuk-js
 
 ## Credits
 ### Software
