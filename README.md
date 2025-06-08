@@ -1,33 +1,63 @@
 # Kuku - a digital cuckoo clock for Android
+- App: Kuku
+- Author: Marc Kooij
+- Licence: MIT
+- Github: https://github.com/djkeu/Kukuk
 
-`Note:` This is a work in progress
+## Description
+Kuku is an app that mimics a cuckoo-clock in a cartoonish style. By default a cuckoo sound is played once every 15 minutes and multiple times according to the hour of the day, accompanied by a message. If this is considered too intrusive, the user can choose to have only the hours indicated by the cuckoo clock.
 
+The minutely alarms are included for testing/showcasing purposes. They are not meant and/or recommended for everyday use.
 
-## Index
-1. Description
-    - Pitch
-    - Actual description
-    - Roads
-    - Odds and ends
-2. About Kuku
-3. Disclaimer
-4. Credits: software
-5. Prototypes
-    - 0.1 - Python
-    - 0.2 - Kotlin 
-6. Obsolete version
-    - 1.3 - Netlify
-
-
-## 1. Description
-### Pitch
+## Pitch
 Always wanted to own a cuckoo clock but couldn't afford one?
 Well, bless the marvels of the modern world, you can get one on your Android phone right now. For Free!
 
-### Actual description
-Kuku is an app that mimics a cuckoo-clock in a cartoonish style. By default a cuckoo sound is played once every 15 minutes and multiple times according to the hour of the day, accompanied by a message. If this is considered too intrusive, the user can choose to have only the hours indicated.
+## Prototypes
+### Kukuk [0.1] - Python:
+Experimenting with Pygame and ultimately using Kivy framework for GUI\
+Github repository: https://github.com/djkeu/kukuk_python
 
-The minutely alarms are included for testing/showcasing purposes. They are not meant and/or recommended for everyday use.
+### Kukuk [0.2] - Kotlin:
+Switch to Kotlin for better performance on Android\
+Github repository: https://github.com/djkeu/kukuk-kotlin
+
+### Kukuk [1.3] - Netlify:
+Switch to JavaScript for deployment to Netlify\
+Year of development: 2024\
+Netlify: https://kuku-klok.netlify.app\
+Github: https://github.com/djkeu/kukuk-js
+
+## Credits
+Android Studio
+VSCode
+Python
+Pygame
+Kivy
+Kotlin
+Javascript
+Lubuntu 24.04
+Audacity
+Libre Office Draw
+Google Keep
+GIMP
+XnViewMp
+
+Netlify.com
+Github.com
+
+AI:
+ChatGPT
+DeepSeek
+Claude
+
+
+
+
+-----
+
+
+# Obsolete
 
 ### Roads
 After having worked through some Python programming tutorials, most notably Python Crash Course by Eric Matthes, I figured it was time to write a real program, a program that would take the world by storm and earn me my rightful position between the tech million- and billionaires, so that I would never have to work a single day in my life again. After having a good look around I realized there was just this one niche that I should follow to achieve that goal. And that niche was going to be: a digital cuckoo clock.
@@ -51,12 +81,25 @@ For the poor souls who don't have an Android device, the [1.3] version of the ap
 There are some cosmetic changes between the versions as well and based on your preference you may be more inclined to use the older version. In that case I herald your decision and wish you the best of experiences with the [1.3] version.
 
 
+
+
+## Index
+- Pitch
+- Description
+- Roads
+- Odds and ends
+- About Kuku
+- Disclaimer
+- Credits: software
+- Prototypes
+    - 0.1 - Python
+    - 0.2 - Kotlin 
+- Obsolete version
+    - 1.3 - Netlify
+
+
 ## 2. About Kuku
 This section is accurate but very basic and will not be updated or expanded upon and may ultimately even be removed in its entirety, to prevent multiple different versions of this section circulating throughout the code/app. A more current and complete version of 'About Kuku' is available through the app and in the `app/src/main/assets/` folder.
-- App: Kuku
-- Author: Marc Kooij
-- Licence: MIT
-- Github: https://github.com/djkeu/Kukuk
 
 
 ## 3. Disclaimer
@@ -66,45 +109,3 @@ Use at your own risk. The developer is not liable for any issues caused by this 
 
 
 
-## 4. Credits
-### Software used
-Android Studio
-VSCode
-Python
-Pygame
-Kivy
-Kotlin
-Javascript
-Lubuntu 24.04
-Audacity
-Libre Office Draw
-Google Keep
-GIMP
-XnViewMp
-
-Netlify.com
-Github.com
-
-AI:
-ChatGPT
-DeepSeek
-Claude
-
-And yes, that's me voicing the Kuku
-
-## 5. Prototypes
-### Kukuk [0.1] - Python:
-Experimenting with Pygame and ultimately using Kivy framework for GUI\
-Github repository: https://github.com/djkeu/kukuk_python
-
-### Kukuk [0.2] - Kotlin:
-Switch to Kotlin for better performance on Android\
-Github repository: https://github.com/djkeu/kukuk-kotlin
-
-
-## 6. Obsolete version:
-### Kukuk [1.3] - Netlify:
-Switch to JavaScript for deployment to Netlify\
-Year of development: 2024\
-Netlify: https://kuku-klok.netlify.app\
-Github: https://github.com/djkeu/kukuk-js
