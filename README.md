@@ -41,3 +41,6 @@ Well, bless the marvels of the modern world, you can get one on your Android pho
 - ChatGPT
 - DeepSeek
 - Claude
+
+### Kuku voice
+- Marc Kooij
