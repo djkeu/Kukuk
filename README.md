@@ -15,7 +15,7 @@ Well, bless the marvels of the modern world, you can get one on your Android pho
 
 ## Prototypes
 ### Kukuk [0.1] - Python:
-Experimenting with Pygame and ultimately using Kivy framework for GUI\
+Experimenting with Pygame and ultimately using the Kivy framework for GUI\
 Github repository: https://github.com/djkeu/kukuk_python
 
 ### Kukuk [0.2] - Kotlin:
@@ -30,21 +30,21 @@ Github: https://github.com/djkeu/kukuk-js
 
 ## Credits
 ### Software
-Android Studio
-VSCode
-Audacity
-Libre Office Draw
-Google Keep
-GIMP
+- Android Studio
+- VSCode
+- Audacity
+- Libre Office Draw
+- Google Keep
+- GIMP
 
 ### Websites
-Netlify.com
-Github.com
+- Netlify.com
+- Github.com
 
 ### AI tools
-ChatGPT
-DeepSeek
-Claude
+- ChatGPT
+- DeepSeek
+- Claude
 
 
 
