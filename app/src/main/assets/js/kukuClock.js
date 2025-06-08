@@ -34,11 +34,28 @@ export class KukuClock {
     }
 
     checkPreviousState() {
-        // Check if the app was previously started
-        const wasStarted = localStorage.getItem('kukuClockStarted') === 'true';
-        if (wasStarted) {
-            // Auto-start without showing the start screen
+        // Use a more persistent approach with localStorage for orientation changes
+        const wasStartedSession = sessionStorage.getItem('kukuClockStarted') === 'true';
+        const wasStartedLocal = localStorage.getItem('kukuClockStarted') === 'true';
+        const startTime = localStorage.getItem('kukuClockStartTime');
+
+        // If started in this session, definitely auto-start
+        if (wasStartedSession) {
             this.startSilently();
+            return;
+        }
+
+        // If started recently (within 30 seconds), assume it's an orientation change
+        if (wasStartedLocal && startTime) {
+            const timeSinceStart = Date.now() - parseInt(startTime);
+            if (timeSinceStart < 30000) { // 30 seconds
+                this.startSilently();
+                return;
+            } else {
+                // Clean up old localStorage data
+                localStorage.removeItem('kukuClockStarted');
+                localStorage.removeItem('kukuClockStartTime');
+            }
         }
     }
 
@@ -65,7 +82,7 @@ export class KukuClock {
 
     handleAlarms() {
         const selectedAlarm = this.elements.alarmSelector.value;
-        
+
         if (selectedAlarm === 'minutely' && AlarmScheduler.shouldTriggerMinutely()) {
             const times = AlarmScheduler.getMinutelyCount();
             this.playKukuSound(times);
@@ -92,8 +109,10 @@ export class KukuClock {
     }
 
     start() {
-        // Mark as started in localStorage
+        // Mark as started in both storages
+        sessionStorage.setItem('kukuClockStarted', 'true');
         localStorage.setItem('kukuClockStarted', 'true');
+        localStorage.setItem('kukuClockStartTime', Date.now().toString());
         this.startSilently();
     }
 
@@ -103,19 +122,19 @@ export class KukuClock {
         this.elements.alarmSelector.value = 'quarterly_hourly';
         this.timeDisplay.start();
         this.imageManager.startAlternating();
-        
+
         // Clear any existing interval before setting a new one
         if (this.alarmIntervalId) {
             clearInterval(this.alarmIntervalId);
         }
-        
+
         this.alarmIntervalId = setInterval(() => this.handleAlarms(), 1000);
         this.handleAlarms(); // Check immediately
     }
 
     setupEventListeners() {
         this.elements.startButton.addEventListener('click', () => this.start());
-        
+
         this.elements.alarmSelector.addEventListener('change', () => {
             if (this.alarmIntervalId) {
                 clearInterval(this.alarmIntervalId);
@@ -123,9 +142,20 @@ export class KukuClock {
             }
         });
 
+        // Clean up localStorage periodically to prevent old data accumulation
+        setInterval(() => {
+            const startTime = localStorage.getItem('kukuClockStartTime');
+            if (startTime && (Date.now() - parseInt(startTime)) > 300000) { // 5 minutes
+                localStorage.removeItem('kukuClockStarted');
+                localStorage.removeItem('kukuClockStartTime');
+            }
+        }, 60000); // Check every minute
+
         // Optional: Add a reset method for testing/debugging
         window.resetKukuClock = () => {
+            sessionStorage.removeItem('kukuClockStarted');
             localStorage.removeItem('kukuClockStarted');
+            localStorage.removeItem('kukuClockStartTime');
             location.reload();
         };
     }
