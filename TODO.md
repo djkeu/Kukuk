@@ -7,7 +7,6 @@ This is the Kukuk todo file
 - [ ] index.html/kukuk.html: kukuk omit Start screen/button 
 
 ## In Progress
-- [ ] Update / expand README.md
 
 ## Abandoned
 - [-] Message of the day
@@ -61,3 +60,4 @@ This is the Kukuk todo file
   - [*] Kuku message: replace text with drawing
   - [*] margins
   - [*] clock images left/right
+  - [*] Update / expand README.md
