@@ -13,7 +13,7 @@ This is the Kukuk todo file
 - [-] User notification for About / What's new
 - [-] What's new
 - [-] Dark theme
-- [-] Show bird when kuku-ing
+- [-] Show image of bird instead of Kuku! message
 - [-] Analogue clock inside drawing
 - [-] Continuous play when not active on mobile device, see ./doc/continuousPlay.md for explanation and sample code
 - [-] Stress test app / kukuk.js for sound issues with:
