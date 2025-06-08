@@ -41,7 +41,7 @@ GIMP
 Netlify.com
 Github.com
 
-### AI
+### AI tools
 ChatGPT
 DeepSeek
 Claude
@@ -101,6 +101,4 @@ This section is accurate but very basic and will not be updated or expanded upon
 Use at your own risk. The developer is not liable for any issues caused by this app.
 - sudden sounds
 - hypnotizing animations
-
-
 
