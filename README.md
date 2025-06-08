@@ -1,11 +1,11 @@
-# Kuku - a digital cuckoo clock for Android
-- App: Kuku
+# Kukuk - a digital cuckoo clock for Android
+- App: Kukuk
 - Author: Marc Kooij
 - Licence: MIT
 - Github: https://github.com/djkeu/Kukuk
 
 ## Description
-Kuku is an app for Android that mimics a cuckoo-clock. By default a cuckoo sound is played once every 15 minutes and multiple times according to the hour of the day, accompanied by a message. If this is considered too intrusive, the user can choose to have only the hours indicated by the cuckoo clock.
+Kukuk is an app for Android that mimics a cuckoo-clock. By default a cuckoo sound is played once every 15 minutes and multiple times according to the hour of the day, accompanied by a message. If this is considered too intrusive, the user can choose to have only the hours indicated by the cuckoo clock.
 
 Minutely alarms are included for testing/showcasing purposes.
 
