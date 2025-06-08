@@ -174,3 +174,11 @@ h4 {
 #startButton:hover {
     background-color: #b22222; /* Slightly darker red on hover */
 }
+
+.start-screen {
+    transition: opacity 0.3s ease-out;
+}
+
+.start-screen[style*="display: none"] {
+    opacity: 0;
+}
