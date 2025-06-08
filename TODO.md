@@ -4,7 +4,6 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
-- [ ] index.html/kukuk.html: kukuk omit Start screen/button 
 
 ## In Progress
 
@@ -60,4 +59,5 @@ This is the Kukuk todo file
   - [*] Kuku message: replace text with drawing
   - [*] margins
   - [*] clock images left/right
-  - [*] Update / expand README.md
+- [*] Update / expand README.md
+- [*] kukuk.html: stop Start screen/button from reappearing 
