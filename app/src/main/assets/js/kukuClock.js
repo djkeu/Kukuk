@@ -26,8 +26,8 @@ export class KukuClock {
     initializeManagers() {
         this.audioManager = new AudioManager('sounds/keukuk03.mp3');
         this.imageManager = new ImageManager(this.elements.kukuMessage, {
-            left: 'images/kuku13Left.png',
-            right: 'images/kuku13Right.png'
+            left: 'images/kuku14Left.png',
+            right: 'images/kuku14Right.png'
         });
         this.messageDisplay = new MessageDisplay(this.elements.kukuMessage);
         this.timeDisplay = new TimeDisplay(this.elements.kukuTime);
