@@ -4,17 +4,6 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
-- [ ] Color scheme
-  - [ ] Background app: #f5f5dc beige
-    - [ ] Left
-    - [ ] Right
-  - [ ] Background clock: #ffa500 orange
-    - [ ] Left
-    - [ ] Right
-  - [ ] Background pendulum: #ffa500 orange
-    - [ ] Left
-    - [ ] Right
-
 - [ ] Publish to Play Store
   - [ ] ...
 
@@ -74,3 +63,13 @@ This is the Kukuk todo file
   - [*] clock images left/right
 - [*] Update / expand README.md
 - [*] kukuk.html: stop Start screen/button from reappearing 
+- [*] Color scheme
+  - [*] Background app: #f5f5dc beige
+    - [*] Left
+    - [*] Right
+  - [*] Background clock: #ffa500 orange
+    - [*] Left
+    - [*] Right
+  - [*] Background pendulum: #ffa500 orange
+    - [*] Left
+    - [*] Right
