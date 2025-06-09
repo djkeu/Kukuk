@@ -5,13 +5,13 @@ This is the Kukuk todo file
 
 ## ToDo
 - [ ] Color scheme
-  - [ ] Background app: beige
+  - [ ] Background app: #f5f5dc beige
     - [ ] Left
     - [ ] Right
-  - [ ] Background clock: orange
+  - [ ] Background clock: #ffa500 orange
     - [ ] Left
     - [ ] Right
-  - [ ] Background pendulum: orange
+  - [ ] Background pendulum: #ffa500 orange
     - [ ] Left
     - [ ] Right
 
