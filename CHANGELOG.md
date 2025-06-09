@@ -1,11 +1,14 @@
 # Changelog
-Changelog for Kuku 2
+Changelog for Kukuk 2
 
-## [2.0.6] - 2025-06-08
+## [2.0.6] - 2025-06-09
 ### Fixed
 - prevent reload of app after turning the phone from portrait to landscape (and vice versa) and/or after loading about.html
+### Changed
+- improved color scheme
 
 ---
+
 ## [2.0.5] - 2025-06-03
 ### Changed
 - replace kuku text header with drawing of text
