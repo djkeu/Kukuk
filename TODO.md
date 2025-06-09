@@ -4,6 +4,17 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
+- [ ] Color scheme
+  - [ ] Background app: beige
+    - [ ] Left
+    - [ ] Right
+  - [ ] Background clock: orange
+    - [ ] Left
+    - [ ] Right
+  - [ ] Background pendulum: orange
+    - [ ] Left
+    - [ ] Right
+
 - [ ] Publish to Play Store
   - [ ] ...
 
