@@ -4,6 +4,7 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
+- [ ] tri-color app icons
 - [ ] Publish to Play Store
   - [ ] ...
 
