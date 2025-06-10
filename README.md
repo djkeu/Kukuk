@@ -1,6 +1,7 @@
 # Kukuk - a digital cuckoo clock for Android
 - App: Kukuk
 - Author: Marc Kooij
+- Website: djkeu.nl
 - Licence: MIT
 - Github: https://github.com/djkeu/Kukuk
 
@@ -36,7 +37,6 @@ Well, bless the marvels of the modern world, you can get one on your Android pho
 ### Websites
 - Netlify.com
 - Github.com
-- djKeu.nl
 
 ### AI tools
 - ChatGPT
