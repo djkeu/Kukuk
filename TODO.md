@@ -17,9 +17,10 @@ This is the Kukuk todo file
 - [-] Show image of bird instead of Kuku! message
 - [-] Analogue clock inside drawing
 - [-] Continuous play when not active on mobile device, see ./doc/continuousPlay.md for explanation and sample code
-- [-] Stress test app / kukuk.js for sound issues with:
+- [-] Sound issue with kuku message and sound:
   - [-] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
   - [-] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
+  - [*] Abandon for simultaneous message and sound
 
 ## Done / Fixed
 - [*] Convert from Netlify to Android WebView app
@@ -74,3 +75,6 @@ This is the Kukuk todo file
     - [*] Left
     - [*] Right
   - [*] tri-color app icons
+
+## Bugs
+- [ ] Sound issues:
