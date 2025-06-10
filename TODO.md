@@ -4,7 +4,6 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
-- [ ] tri-color app icons
 - [ ] Publish to Play Store
   - [ ] ...
 
@@ -74,3 +73,4 @@ This is the Kukuk todo file
   - [*] Background pendulum: #ffa500 orange
     - [*] Left
     - [*] Right
+  - [*] tri-color app icons
