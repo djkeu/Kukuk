@@ -2,7 +2,7 @@
 - App: Kukuk
 - Author: Marc Kooij
 - Website: https://djkeu.nl
-- Licence: MIT
+- Licence: MIT (https://opensource.org/license/mit)
 - Github: https://github.com/djkeu/Kukuk
 
 ## Description
