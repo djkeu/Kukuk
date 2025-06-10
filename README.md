@@ -1,7 +1,7 @@
 # Kukuk - a digital cuckoo clock for Android
 - App: Kukuk
 - Author: Marc Kooij
-- Website: djkeu.nl
+- Website: https://djkeu.nl
 - Licence: MIT
 - Github: https://github.com/djkeu/Kukuk
 
