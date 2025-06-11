@@ -4,8 +4,11 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
-- [ ] Prepare Kukuk for Play Store
-  - [ ] ...
+- [*] Prepare Kukuk for Play Store
+- [*] Test your app and fix any bugs
+  - [*] Ensure your WebView complies with Google Play Policies, especially regarding user data collection
+
+
 - [ ] Publish to Play Store
 
 ## In Progress
