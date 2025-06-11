@@ -4,8 +4,9 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
-- [ ] Publish to Play Store
+- [ ] Prepare Kukuk for Play Store
   - [ ] ...
+- [ ] Publish to Play Store
 
 ## In Progress
 
