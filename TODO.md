@@ -4,15 +4,15 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
-- [*] Prepare Kukuk for Play Store
-- [*] Test your app and fix any bugs
-  - [*] Ensure your WebView complies with Google Play Policies, especially regarding user data collection
-- [ ] Generate your keystore and keep it safe
-  - [ ] Build -> Generate Signed Bundle/APK
-  - [ ] Select 'APK'
-  - [ ] Create new... under 'Key store path'
-  - [ ] Fill in the details (Alias, Password, Validity years (recommended: 25), etc.)
-  - [ ] Save the keystore file in a secure location (needed for updates)
+- [ ] Prepare for Play Store
+  - [*] Test your app and fix any bugs
+    - [*] Ensure your WebView complies with Google Play Policies, especially regarding user data collection
+  - [ ] Generate your keystore and keep it safe
+    - [ ] Build -> Generate Signed Bundle/APK
+    - [ ] Select 'APK'
+    - [ ] Create new... under 'Key store path'
+    - [ ] Fill in the details (Alias, Password, Validity years (recommended: 25), etc.)
+    - [ ] Save the keystore file in a secure location (needed for updates)
 
 
 - [ ] Publish to Play Store
