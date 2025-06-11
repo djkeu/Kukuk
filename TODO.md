@@ -21,7 +21,6 @@ This is the Kukuk todo file
 - [-] Sound issue with kuku message and sound:
   - [-] `setTimeout(resolve, 800);`  // Reduced from 1000ms to 800ms
   - [-] `if (i < times - 1) await new Promise(resolve => setTimeout(resolve, 150));`  // Reduced from 200 to 150
-  - [*] Abandon for simultaneous message and sound
 
 ## Done / Fixed
 - [*] Convert from Netlify to Android WebView app
@@ -78,4 +77,7 @@ This is the Kukuk todo file
   - [*] tri-color app icons
 
 ## Bugs
-- [ ] Sound issues:
+- [ ] Sound issues: Echoing can occur
+  - [ ] Find out when
+  - [ ] Find out cause
+  - [ ] Fix sound echoing
