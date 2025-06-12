@@ -1,7 +1,7 @@
 # Kukuk - a digital cuckoo clock for Android
 
 ## Description
-Kukuk is an app for Android that mimics a cuckoo-clock. By default a cuckoo sound is played once every 15 minutes and multiple times according to the hour of the day, accompanied by a message. If this is considered too intrusive, the user can choose to have only the hours indicated by the cuckoo clock.
+Kukuk is an Android app for that mimics a cuckoo-clock. A cuckoo sound is played and a message is shown at every hour, indicating the hour of the day, and once every quarter. 
 
 Minutely alarms are included for testing/showcasing purposes.
 
