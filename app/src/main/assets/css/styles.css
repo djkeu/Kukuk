@@ -4,7 +4,6 @@ body {
     padding: 10px;
     padding-top: 0px;
     padding-bottom: 40px;
-    background-color: #daa520; /* goldenrod */
     background-color: #ffa500; /* orange */
     background-color: #f5f5dc;  /* beige */
     border: 1px solid #8B0000;  /* darkred */
@@ -56,7 +55,7 @@ h4 {
 
 .kuku-message {
     margin-top: 100px;
-    height: 200px; /* Set a fixed height */
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,25 +75,25 @@ h4 {
 }
 
 .kuku-message span {
-    visibility: hidden; /* Hide text by default */
+    visibility: hidden;
     opacity: 0;
-    transition: opacity 0.3s ease; /* Smooth opacity transition */
+    transition: opacity 0.3s ease;
 }
 
 .kuku-image {
-    width: 100%;  /* Ensure the image fills the container */
-    height: auto;  /* Maintain aspect ratio */
-    max-width: 250px;  /* Set a maximum width to avoid overflow */
-    max-height: 100%;  /* Ensure the image does not exceed container height */
-    object-fit: contain;  /* Maintain aspect ratio within the container */
-    position: absolute;  /* Position the image within the container */
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    max-height: 100%;
+    object-fit: contain;
+    position: absolute;
 }
 
 .kuku-message.visible span {
-    visibility: visible; /* Show text when message is visible */
+    visibility: visible;
     opacity: 1;
-    position: relative; /* Ensure text is positioned correctly */
-    z-index: 1; /* Ensure text appears above the image */
+    position: relative;
+    z-index: 1;
 }
 
 .selector {
@@ -151,10 +150,10 @@ h4 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent */
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
     z-index: 1000;
 }
 
@@ -168,11 +167,11 @@ h4 {
     cursor: pointer;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     position: relative;
-    top: -14%; /* Move the button upwards relative to its centered position */
+    top: -14%;
 }
 
 #startButton:hover {
-    background-color: #b22222; /* Slightly darker red on hover */
+    background-color: #b22222;
 }
 
 .start-screen {
