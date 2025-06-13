@@ -4,6 +4,8 @@ This is the Kukuk todo file
 ## FixMe
 
 ## ToDo
+- [ ] kukuClock.js: resetKukuClock: abundant?
+
 - [ ] Prepare for Play Store
   - [*] Test your app and fix any bugs
     - [*] Ensure your WebView complies with Google Play Policies, especially regarding user data collection
