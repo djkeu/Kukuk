@@ -150,13 +150,5 @@ export class KukuClock {
                 localStorage.removeItem('kukuClockStartTime');
             }
         }, 60000); // Check every minute
-
-        // Optional: Add a reset method for testing/debugging
-        window.resetKukuClock = () => {
-            sessionStorage.removeItem('kukuClockStarted');
-            localStorage.removeItem('kukuClockStarted');
-            localStorage.removeItem('kukuClockStartTime');
-            location.reload();
-        };
     }
 }
