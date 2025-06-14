@@ -9,10 +9,17 @@ This is the Kukuk todo file
     - [*] Ensure your WebView complies with Google Play Policies, especially regarding user data collection
   - [*] Generate your keystore and keep it safe
     - [*] Build -> Generate Signed Bundle/APK
-    - [*] Select 'APK'
+    - [*] Select 'AAB'
     - [*] Create new... under 'Key store path'
     - [*] Fill in the details (Alias, Password, Validity years (recommended: 25), etc.)
+    - [*] Country Code: NL
     - [*] Save the keystore file in a secure location (needed for updates)
+  - [*] Create a Google Play Developer Account
+    - [*] https://play.google.com/console/
+    - [*] Sign in with a Google account
+    - [ ] Pay the $25 registration fee
+
+
 
 
 - [ ] Publish to Play Store
