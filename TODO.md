@@ -25,6 +25,10 @@ This is the Kukuk todo file
 - [ ] Publish to Play Store
 
 ## In Progress
+- [ ] Update version number
+    - [ ] app/build.gradle
+    - [ ] Changelog.md
+    - [ ] about.json
 
 ## Abandoned
 - [-] Message of the day
