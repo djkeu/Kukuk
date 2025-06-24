@@ -84,25 +84,21 @@ export class KukuClock {
         if (selectedAlarm === 'minutely' && AlarmScheduler.shouldTriggerMinutely()) {
             const times = AlarmScheduler.getMinutelyCount();
             this.playKukuSound(times);
-            console.log(`Minutely alarm sounded ${times} time(s)`);
         }
 
         if (selectedAlarm === 'quarterly_hourly') {
             if (AlarmScheduler.shouldTriggerQuarterly()) {
                 this.playKukuSound(1);
-                console.log('Quarterly alarm sounded');
             }
             if (AlarmScheduler.shouldTriggerHourly()) {
                 const times = AlarmScheduler.getHourlyCount();
                 this.playKukuSound(times);
-                console.log(`Hourly alarm sounded ${times} time(s)`);
             }
         }
 
         if (selectedAlarm === 'hourly' && AlarmScheduler.shouldTriggerHourly()) {
             const times = AlarmScheduler.getHourlyCount();
             this.playKukuSound(times);
-            console.log(`Hourly alarm sounded ${times} time(s)`);
         }
     }
 
