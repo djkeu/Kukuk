@@ -39,13 +39,11 @@ function loadAboutData() {
     // Primary method: Use Android interface (most secure)
     if (window.AndroidInterface && typeof window.AndroidInterface.getAboutData === 'function') {
         try {
-            console.log("Loading data from Android interface...");
             const aboutDataString = window.AndroidInterface.getAboutData();
 
             if (aboutDataString && aboutDataString !== "{}") {
                 const aboutData = JSON.parse(aboutDataString);
                 displayAboutInfo(aboutData);
-                console.log("Successfully loaded data from Android interface");
                 return true;
             }
         } catch (e) {
@@ -58,7 +56,6 @@ function loadAboutData() {
         try {
             console.log("Loading data from injected window data...");
             displayAboutInfo(window.appData);
-            console.log("Successfully loaded fallback data");
             return true;
         } catch (e) {
             console.error("Error loading fallback data:", e);
@@ -87,15 +84,12 @@ function initializeAboutPage() {
 
     function attemptLoad() {
         attempts++;
-        console.log(`About data load attempt ${attempts}/${maxAttempts}`);
 
         if (loadAboutData()) {
-            console.log("About data loaded successfully");
             return;
         }
 
         if (attempts < maxAttempts) {
-            console.log(`Retrying in ${retryDelay}ms...`);
             setTimeout(attemptLoad, retryDelay);
         } else {
             console.error("Failed to load about data after maximum attempts");
@@ -107,18 +101,13 @@ function initializeAboutPage() {
 
 // Load about data when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("About page DOM loaded, initializing...");
-
-    // Small delay to ensure Android interface is fully ready
     setTimeout(initializeAboutPage, 200);
 });
 
 // Additional safety: Try loading again if Android interface becomes available later
 window.addEventListener('load', () => {
-    // Only retry if no data was loaded yet
     const aboutSection = document.getElementById('about-section');
     if (aboutSection && (!aboutSection.innerHTML || aboutSection.innerHTML.includes('error-message'))) {
-        console.log("Window loaded, attempting final data load...");
         setTimeout(initializeAboutPage, 500);
     }
 });
