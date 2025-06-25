@@ -17,11 +17,8 @@ This is the Kukuk todo file
   - [*] Create a Google Play Developer Account
     - [*] https://play.google.com/console/
     - [*] Sign in with a Google account
-    - [ ] Pay the $25 registration fee
-
-
-
-
+    - [*] Pay the $25 registration fee
+    - [ ] Fill in Google Play account
 - [ ] Publish to Play Store
 
 ## In Progress
