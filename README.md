@@ -26,17 +26,6 @@ This app does not collect, store, or share any user data.
 ## Licence
 MIT
 
-## Prototypes
-### Kukuk [0.1] - Python:
-- Github repository: https://github.com/djkeu/kukuk_python
-
-### Kukuk [0.2] - Kotlin:
-- Github repository: https://github.com/djkeu/kukuk-kotlin
-
-### Kukuk [1.3] - Netlify:
-- Netlify: https://kuku-klok.netlify.app
-- Github: https://github.com/djkeu/kukuk-js
-
 ## Credits
 ### Software
 - Android Studio
@@ -57,3 +46,17 @@ MIT
 
 ### Kuku voice
 - Marc Kooij
+
+### Sponsors
+- Ronnie Porte
+
+## Prototypes
+### Kukuk [0.1] - Python:
+- Github repository: https://github.com/djkeu/kukuk_python
+
+### Kukuk [0.2] - Kotlin:
+- Github repository: https://github.com/djkeu/kukuk-kotlin
+
+### Kukuk [1.3] - Netlify:
+- Netlify: https://kuku-klok.netlify.app
+- Github: https://github.com/djkeu/kukuk-js
