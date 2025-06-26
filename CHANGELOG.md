@@ -1,6 +1,15 @@
 # Changelog
 Changelog for Kukuk 2
 
+## [2.0.7] - 2025-06-26
+### Changed
+- use libs.versions.toml to catalog
+- clean up build.gradle, libs.versions.toml
+### Removed
+- all things Kotlin related
+
+---
+
 ## [2.0.6] - 2025-06-09
 ### Fixed
 - prevent reload of app after turning the phone from portrait to landscape (and vice versa) and/or after loading about.html
