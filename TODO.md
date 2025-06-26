@@ -19,6 +19,10 @@ This is the Kukuk todo file
     - [*] Sign in with a Google account
     - [*] Pay the $25 registration fee
     - [ ] Fill in Google Play account
+    - [ ] Passport
+    - [ ] Bankafschrift
+    - [ ] Verify the possession of an Android phone with app
+
 - [ ] Publish to Play Store
 
 ## In Progress
