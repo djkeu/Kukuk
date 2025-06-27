@@ -11,7 +11,7 @@ Minutely alarms are included for testing/showcasing purposes only and are not re
 
 ## About Kukuk
 - App Name: Kukuk
-- Version: 2.0.6
+- Version: 2.0.7
 - Developer: Marc Kooij
 - E-mail: post@djkeu.nl
 - Website: https://djkeu.nl
