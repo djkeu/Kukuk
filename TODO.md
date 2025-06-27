@@ -28,8 +28,9 @@ This is the Kukuk todo file
 ## In Progress
 - [ ] Update version number
     - [ ] app/build.gradle
-    - [ ] Changelog.md
+    - [ ] changelog.md
     - [ ] about.json
+    - [ ] readme.md - About Kukuk section
 
 ## Abandoned
 - [-] Message of the day
